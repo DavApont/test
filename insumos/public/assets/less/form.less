@@ -1,0 +1,38 @@
+.form-control{
+	border-radius: 0px;
+}
+.form-horizontal{
+	.has-feedback-left{
+		padding-top: 3px;
+		padding-bottom: 3px;
+		.form-control{
+			padding-left: 40px;
+			padding-right: inherit;
+		}
+		.form-control-feedback {
+			left: 15px;
+			top: 0;
+			right: auto;
+			color: #A2A2A2;
+			border-right: 1px solid #CCCCCC;
+		}
+	}
+	.has-feedback-right{
+		padding-top: 3px;
+		padding-bottom: 3px;
+		.form-control{
+			padding-right: 40px;
+			padding-left: inherit;
+		}
+		.form-control-feedback {
+			right: 15px;
+			top: 0;
+			left: auto;
+			color: #A2A2A2;
+			border-left: 1px solid #CCCCCC;
+		}
+	}
+	textarea ~ .form-control-feedback{
+		border-bottom: 1px solid #CCCCCC;
+	}
+}

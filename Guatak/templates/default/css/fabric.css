@@ -1,0 +1,12 @@
+BODY#page.page
+{
+	background-image: url(../../images/texture/fabric/texture.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+DIV#page-bg2
+{
+	background-image: url(http://tiendasdaka.com/images/stories/fondo_amarillo.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}

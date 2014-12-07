@@ -1,0 +1,109 @@
+/*Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license)*/
+/*Base*/
+/*----------------------------------------------------------------------------------------------------*/
+/*Link Colors*/
+A, H2, H4, H5, H6, #footer A:hover, .menu-dropdown LI.active > A, .menu-sidebar A.active, .menu-sidebar LI > SPAN.active, #system .pagination A:hover
+{
+	color: #1A418E;
+}
+::-moz-selection
+{
+	background: #41A8D3;
+	color: #FFF;
+}
+::selection
+{
+	background: #41A8D3;
+	color: #FFF;
+}
+/*Menus*/
+/*----------------------------------------------------------------------------------------------------*/
+/*Menu-Dropdown*/
+.menu-dropdown A.level3
+{
+	background: url(../../images/color/blue/menu_dropdown_level3.png) no-repeat 0 0;
+}
+/*Menu-Sidebar*/
+.menu-sidebar LI.level2 A.level2
+{
+	background: url(../../images/color/blue/menu_sidebar_level2.png) no-repeat 0 0;
+}
+.mod-black .menu-sidebar LI.level2 A.level2
+{
+	background-image: url(../../images/color/blue/menu_sidebar_level2_black.png);
+}
+/*Link*/
+.mod-color .menu-sidebar A, .mod-color .menu-sidebar LI > SPAN
+{
+	color: #E0F5FF;
+}
+/*Hover*/
+.mod-color .menu-sidebar A:hover, .mod-color .menu-sidebar LI > SPAN:hover
+{
+	color: #FFF;
+}
+/*Active*/
+.mod-color .menu-sidebar A.active, .mod-color .menu-sidebar LI > SPAN.active
+{
+	color: #0D6082;
+}
+/*Modules*/
+/*----------------------------------------------------------------------------------------------------*/
+.module .badge
+{
+	background-image: url(../../images/color/blue/module_badges.png);
+}
+/*Module Color*/
+.mod-color
+{
+	border: 1px solid #3191B9;
+	border-top-color: #236987;
+	background: #41A8D3;
+	box-shadow: inset 0 0 5px rgba(35,105,135,0.7), 0 1px 0 rgba(253,253,255,1.0);
+	color: #EAF8FF;
+	text-shadow: 0 1px 0 rgba(0, 0, 2, 0.1);
+}
+.mod-color H3.module-title
+{
+	color: #EAF8FF;
+}
+.mod-color H3.module-title .subtitle
+{
+	color: #AEE4FF;
+}
+.mod-color A:hover, .mod-color STRONG, .mod-color CODE
+{
+	color: #0D6082;
+	text-shadow: 0 1px 0 rgba(240, 240, 255, 0.2);
+}
+.mod-color A
+{
+	color: #AEE4FF;
+}
+.mod-color A:hover
+{
+	text-shadow: 0 1px 0 rgba(0, 0, 2, 0.2);
+}
+/*Tools*/
+/*----------------------------------------------------------------------------------------------------*/
+/*Button More*/
+A.button-more
+{
+	border-bottom: 1px solid #3E8EB0;
+	background: #46A6CE;
+	background: -moz-linear-gradient( top, rgba(108,184,217,1.0) 0%, rgba(70,166,206,1.0) 100% );
+	background: -webkit-linear-gradient( top, rgba(108,184,217,1.0) 0%, rgba(70,166,206,1.0) 100% );
+	background: -webkit-gradient( linear, 50% 0%, 50% 100%, color-stop(0%, #6CB8D9), color-stop(100%, #46A6CE) );
+	background: -o-linear-gradient( top, rgba(108,184,217,1.0) 0%, rgba(70,166,206,1.0) 100% );
+	background: linear-gradient( top, rgba(108,184,217,1.0) 0%, rgba(70,166,206,1.0) 100% );
+	background: -ms-linear-gradient( top, rgba(108,184,217,1.0) 0%, rgba(70,166,206,1.0) 100% );
+}
+A.button-more:hover
+{
+	border-bottom-color: #277292;
+	color: #0D6082 !important;
+}
+A.button-more:active
+{
+	border-top: 1px solid #277292;
+}

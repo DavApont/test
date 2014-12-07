@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+#cuerpo-cont-ppal h1{
+	color:#444444;
+	font-size:200%;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+#cuerpo-cont-ppal p{
+		font-size: 125%;
+		text-indent:25px;
+		color:#666666;
+		margin: 0px 20px 10px 20px;
+}
+
+#cuerpo-cont-ppal hr{
+		color:#999999;
+		margin: 0px 20px 10px 20px;
+}
+
+#cuerpo-cont-ppal form{
+		margin: 0px 20px 10px 20px;
+}
+
+	#cuerpo-cont-ppal form legend{
+		font-size: 140%;
+		font-weight:bold;
+		color:#444444;
+		margin-top:0px;
+		margin-bottom:5px;
+	}
+	#cuerpo-cont-ppal form fieldset select{padding:3px;margin-right:5px;color: #666;}
+	#cuerpo-cont-ppal form fieldset input{display:block; width:550px; padding:5px; margin-bottom:15px; color:#666666;}
+	#cuerpo-cont-ppal form fieldset input:focus{border-color:#06F; border-style:solid; border-width:medium;}
+	#cuerpo-cont-ppal form fieldset input.selecciona-fecha{padding:3px;margin-right:3px;width:auto;display:inline;}
+	#cuerpo-cont-ppal form fieldset img{margin-right:7px;}
+	#cuerpo-cont-ppal form fieldset textarea{
+		display: block;
+		width: 550px;
+		padding: 5px;
+		margin-bottom: 15px;
+		color:#666666;
+	}
+	#cuerpo-cont-ppal form fieldset label{color:#666666;display:block;margin:20px 25px 5px 7px;}
+	#cuerpo-cont-ppal form fieldset div{margin-top:20px;display:block;}
+	#cuerpo-cont-ppal form fieldset p.nota{text-indent:0px;font-size:100%;margin:0px 0px 5px 0px;}
+	#cuerpo-cont-ppal form fieldset div label{float:right;width:45%;display:inline;margin:0px;padding-top: 3px;}
+	#cuerpo-cont-ppal form fieldset div label.etiq-motivo{float: none; display: block;margin:20px 25px 5px 7px;padding-top: 0px; width:auto;}
+	#cuerpo-cont-ppal form fieldset input.btnForm{display:inline;width:150px;margin:20px 50px 0px 50px;display:inline;}
+	#cuerpo-cont-ppal form fieldset input.btnForm#filtrarses{margin-top:0px;margin-left:20px;}
+	hr.division_ic, hr.division_dp, hr.division_rc{border-style: dashed;}
+	a.disparador_dp, a.disparador_ic{margin-right: 25px;}
+	a.disparador_dp, a.disparador_ic, a.disparador_rc{
+		width:240px;
+		background: transparent url(../img/iconos_mas.png) left no-repeat;
+		padding-left:20px;
+	}
+	a.eliminar_dp, a.eliminar_ic, a.eliminar_rc{
+		background: transparent url(../img/iconos_menos.png) left no-repeat;
+		display:block;
+		width:240px;
+		padding-left:20px;
+		margin-left:335px;
+		margin-bottom:15px;
+	}
+	form#carSes div{margin-bottom:20px;}
+	form#ingtit p.contador{color:#3C3;float:right;margin-top:-32px;margin-right:-20px;font-size:200%;font-weight:bold;}

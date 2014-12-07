@@ -1,0 +1,126 @@
+#menuWrapper {
+width:100%; /* Ancho del menú */
+height:35px;
+padding-left:14px;
+background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+border-radius:20px; /* Bordes redondeados */
+}
+
+
+
+ 
+
+
+.menu {
+width: 100%;
+float: left;
+font-family: 'Lobster';
+font-size:20px; /* Tamaño de la fuente */
+font-weight:500;
+
+
+}
+.menu ul {
+float:left;
+height:0px;
+list-style:none;
+margin:0;
+padding:0;
+border-radius: 0px 0px 20px 20px; /* Bordes redondeados del submenú */
+}
+.menu li{
+float:left;
+padding:0px;
+
+}
+.menu li a{
+background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+
+color:#585858; /* Color de la fuente */
+display:block;
+font-weight:normal;
+line-height:35px;
+margin:0px;
+padding:0px 50px; /* Espacio entre cada pestaña */
+text-align:center;
+text-decoration:none;
+}
+.menu li a:hover, .menu ul li:hover a {
+background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+color:#585858; /* Color del texto al pasar el cursor */
+text-decoration:none;
+}
+.menu li ul {
+background:#f0f0f0; /* Color de fondo del submenú */
+display:none;
+height:auto;
+padding:0px;
+margin:0px;
+position:absolute;
+width:200px; /* Ancho del submenú */
+z-index:100;
+border-top:1px solid #GGG; /* Borde superior del submenú */
+}
+.menu li:hover ul{
+display:block;
+}
+.menu li li {
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+.menu li:hover li a {
+background:none;
+border-radius: 0px 0px 20px 20px; /* Borde de las subpestañas */
+}
+.menu li ul a {
+display:block;
+height:35px;
+font-size:15px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+background:#E6E6E6; /* Color de las subpestañas al pasar el cursor */
+color:#585858;
+text-decoration:none;
+}
+
+#search { 
+width: 228px; /* Ancho del buscador */
+height: 22px;
+float: right;
+text-align: center;
+margin-top: 6px;
+margin-right: 6px;
+/* Imagen de fondo del buscador */
+background: url(http://4.bp.blogspot.com/_qgZA1ny_dAs/Szuhn02zO6I/AAAAAAAADdI/u2etpRWlwF8/s1600/search-bar.png) no-repeat;
+}
+#search-box {
+margin-top: 3px;
+border:0px;
+background: transparent;
+text-align:center;
+}
+
+
+
+

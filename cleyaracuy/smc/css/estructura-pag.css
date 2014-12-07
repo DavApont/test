@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* Estructuración de la Página */
+#contenedor-pag {
+	width: 61.54em;
+	*width: 60.00em;
+	min-width: 800px;
+	width: expression(this.scrollWidth < 801? "800px" : "auto");
+	min-height: 585px;
+	position: relative;
+	margin: 0px auto;
+	background-color: #FFF;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	outline: 2px solid #666;
+}
+#area-cabecera {
+	height: 80px;
+	width: 60.77em;
+	*width: 59.25em;
+	min-width: 790px;
+	width: expression(this.scrollWidth < 791? "790px" : "auto");
+	margin: 4px 3px;
+	background-image:url(../img/bannerSmc.png);
+	overflow: hidden;
+}
+	#area-cabecera #datosUsuario {
+		padding: 3px 5px;
+		width: 260px;
+		height: 80px;
+		float:right;
+		overflow: hidden;
+	}
+			#area-cabecera #datosUsuario p#nombreUsuario, p#ultConexion{margin:0;font-weight:bold;color:#999;text-align:right;font-size:130%;line-height:100%;}
+			#area-cabecera #datosUsuario p#nombreUsuario span{font-style:italic;color:#999;font-size:90%;line-height:110%;}
+			#area-cabecera #datosUsuario p#ultConexion{font-size:inherit;font-weight:normal;line-height:110%;}
+			#area-cabecera #datosUsuario a{color:#F00;font-weight:bold;text-align:right;text-decoration:none;float:right;margin-top:0px;}
+			#area-cabecera #datosUsuario img{float:right;margin-left:10px;}
+
+#contenedor-pag hr.divisionCabCuerpo{margin: 0 3px;}
+
+#area-cuerpo {
+	width: 60.77em;
+	*width: 59.25em;
+	min-width: 790px;
+	width: expression(this.scrollWidth < 791? "790px" : "auto");
+	min-height: 470px;
+	height: expression(this.scrollHeight < 471? "470px" : "auto");
+	margin: 0px 3px;
+}
+	#cuerpo-cont-izq {
+		float: left;
+		top: 0px;
+		left: 0px;
+		width: 11.9230em;
+		*width: 11.6250em;
+		min-width: 155px;
+		width: expression(this.scrollWidth < 156? "155px" : "auto");
+		min-height: 465px;
+		height: expression(this.scrollHeight < 466? "465px" : "auto");
+		overflow: hidden;
+	}
+		#cuerpo-cont-izq a.btnSmc{
+			display:block;
+			height:39px;
+			width:149px;
+			background-image: url(../img/botones.png);
+			margin: 10px 3px 0px 3px;
+			cursor: default;
+		}
+			#cuerpo-cont-izq #ingNot{background-position: 0px 0px;}
+			#cuerpo-cont-izq #ingNot:hover{background-position: 0px -39px;}
+			#cuerpo-cont-izq #ediNot{background-position: 0px -79px;}
+			#cuerpo-cont-izq #ediNot:hover{background-position: 0px -118px;}
+			#cuerpo-cont-izq #ingTit{background-position: 0px -158px;}
+			#cuerpo-cont-izq #ingTit:hover{background-position: 0px -197px;}
+			#cuerpo-cont-izq #ediTit{background-position: 0px -237px;}
+			#cuerpo-cont-izq #ediTit:hover{background-position: 0px -276px;}
+			#cuerpo-cont-izq #foro{background-position: 0px -316px;}
+			#cuerpo-cont-izq #foro:hover{background-position: 0px -355px;}
+			#cuerpo-cont-izq #carSes{background-position: 0px -395px;}
+			#cuerpo-cont-izq #carSes:hover{background-position: 0px -434px;}
+			#cuerpo-cont-izq #carDoc{background-position: 0px -474px;}
+			#cuerpo-cont-izq #carDoc:hover{background-position: 0px -513px;}
+			#cuerpo-cont-izq #subLey{background-position: 0px -553px;}
+			#cuerpo-cont-izq #subLey:hover{background-position: 0px -592px;}
+			#cuerpo-cont-izq #subArc{background-position: 0px -632px;}
+			#cuerpo-cont-izq #subArc:hover{background-position: 0px -671px;}
+			#cuerpo-cont-izq #remCom{background-position: 0px -711px;}
+			#cuerpo-cont-izq #remCom:hover{background-position: 0px -750px;}
+			#cuerpo-cont-izq #carHist{background-position: 0px -790px;}
+			#cuerpo-cont-izq #carHist:hover{background-position: 0px -829px;}
+			#cuerpo-cont-izq #carEfem{background-position: 0px -869px;}
+			#cuerpo-cont-izq #carEfem:hover{background-position: 0px -908px;}
+			#cuerpo-cont-izq #modPerf{background-position: 0px -948px;}
+			#cuerpo-cont-izq #modPerf:hover{background-position: 0px -987px;}
+
+	#cuerpo-cont-ppal {
+		float: right;
+		top: 0px;
+		right: 0px;
+		width: 48.4615em;
+		*width: 47.25em;
+		min-width: 630px;
+		width: expression(this.scrollWidth < 631? "630px" : "auto");
+		min-height: 465px;
+		height: expression(this.scrollHeight < 466? "465px" : "auto");
+		overflow: hidden;
+		padding-top: 10px;
+	}
+	
+#area-pie {
+	width: 60.77em;
+	*width: 59.25em;
+	min-width: 790px;
+	width: expression(this.scrollWidth < 791? "790px" : "auto");
+	overflow: hidden;
+	margin: 0 3px;
+}
+	#area-pie p{
+		margin: 0;
+		font-size:85%;
+		text-align:center;
+		color:#999;
+	}

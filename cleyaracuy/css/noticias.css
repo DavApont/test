@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+#cont-noticia h2{margin-bottom:0px;}
+#cont-noticia h3 {color:#555;margin-bottom:0px;}
+#cont-noticia p + h2 {margin-top:25px;margin-bottom:10px;}
+
+#cont-noticia hr {
+	margin: 10px 10px 28px 10px;
+	color:#CCC;
+	border-style:dashed;
+}
+
+#cont-noticia span.datosEmisor{
+	color:#777;
+	display:block;
+	margin-left:25px;
+}
+
+#cont-noticia span.fechaNot{
+	padding-top: 3px;
+	color: #FFF;
+	font-size:125%;
+	background: transparent url(../img/pestanaEntradas.png) no-repeat top center;
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+	float:right;
+	text-indent: 5px;
+	margin:-20px 10px 0px 0px;
+}
+
+#cont-noticia > img.img-ppal-not{
+	float: left;
+	margin: 0px 20px 18px 30px;
+}
+
+#cont-noticia p:first-child {
+	width:235px;
+	overflow:hidden;
+	margin:-5px 0px 10px 0px;
+	float:left;
+	font-weight:bold;
+	font-size:116%;
+}
+
+#cont-noticia p {
+	margin-bottom:15px;
+}
+
+#opciones-not{
+	display:block;
+	height:35px;
+	width:550px;
+	position:relative;
+	margin: 15px auto;
+	-moz-border-radius:5px;
+	background-color:#f5f5f5;
+}
+
+a[href="javascript:history.back(1)"]{display:inline-block;float:left;margin:10px 15px;}

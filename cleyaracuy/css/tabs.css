@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+ul.tabs {  
+	margin:0 20px 0 15px !important; 
+	padding:0;
+	height:30px;
+	width: 540px;
+}
+
+/* single tab */
+ul.tabs li {  
+	float:left;	 
+	padding:0; 
+	margin:0;  
+	list-style-type:none;	
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	float:left;
+	display:block;
+	padding:8px 0 0px 0;	
+	height:22px;
+	width: 178px;
+	color:#FFFFFF;
+	margin-right:2px;
+	text-align:center;
+}
+
+#t1, #t2, #t3{
+	background: url(../img/tabsNav.png);
+	background-repeat:  no-repeat;
+	background-position: 0px -82px;
+}
+#t1:hover, #t2:hover, #t3:hover{background-position: 0px -39px; color:#666}
+#t1.current, #t2.current, #t3.current{background-position: 0px 0px; cursor:default; color:#000;}
+#t1.current:hover, #t2.current:hover, #t3.current:hover{text-decoration:none;}
+
+/* tab pane */
+div.panes > div {
+	display:none;
+	min-height:300px;
+	width: 536px;
+	padding:20px 0;
+	background-color:#f5f5f5;
+	border-right: 2px #BFBFBF solid;
+	border-bottom: 2px #BFBFBF solid;
+	margin: 0 20px 20px 15px;
+	overflow:hidden;
+}
+
+div.panes div p{text-indent: 25px; margin-left:35px; margin-right:20px;}
+div.panes div h2{margin:-5px 20px 10px 25px;}
+div.panes div a span.pdf{position:absolute; right:55px; top:325px;}
+
+/**** Contenedores Junta Directiva *******/
+div.panes div.cont-jd{display:inline-block;float:left;min-height:200px;width:auto;margin-right:10px;-moz-border-radius:5px;padding:5px;border:none;background-color:transparent;}
+div.panes div.cont-jd img{position:relative;margin: 3px auto;}
+div.panes div.cont-jd a{display:block;text-align:center;}
+div.panes div.cont-jd span{display:block;text-align:center;font-weight:bold;}
+
+/**** Contenedores Legisladores *******/
+div.panes div.cont-leg{display:block;min-height:170px;width:500px;-moz-border-radius:5px;padding:5px;border:none;background-color:#fff;margin:10px 13px;}
+div.panes div.cont-leg div.cont-foto-logo{display:inline-block;float:left;min-height:208px;width:125px;padding:0px;margin:10px 5px 0px 5px;border:none;background-color:#fff;}
+div.panes div.cont-leg div.datos-leg{display:inline-block;float:left;min-height:130px;width:345px;padding:7px 0px 0px 0px;border:none;background-color:#fff;margin:7px 0px 0px 7px;}
+div.panes div.cont-leg div.datos-leg h3{margin:-7px 0px 0px 0px;font-style:normal;font-size:130%;}
+div.panes div.cont-leg div.datos-leg span{float:left;margin:4px 0px 10px 0px;font-weight:bold;color:#444;}
+div.panes div.cont-leg div.datos-leg img.icono{float:left;margin:3px 10px 10px 0px;clear:both;}
+div.panes div.cont-leg div.datos-leg span.comPres{-moz-border-radius:5px;background-color:#F5F5F5;padding:4px 5px 8px 10px;margin-left:-10px;}
+
+/*****************************************************************************************************************************/
+/*****************************************************************************************************************************/
+/*****************************************************************************************************************************/
+
+/* root element for accordion. decorated with rounded borders and gradient background image */
+div.panes div #accordion {
+	background:#d4d4d4 url(../img/degradado_acordion2.png) 0 0;
+	width: 500px;
+	border-right:2px #BFBFBF solid;	
+	border-bottom:2px #BFBFBF solid;	
+	-background:#666;
+	margin-left:15px;
+}
+
+/* accordion header */
+div.panes div #accordion h2 {
+	background:#ccc url(../img/degradado_acordion1.png);
+	margin:0;
+	padding:5px 15px;
+	font-size:120%;
+	font-weight:bold;
+	border:1px solid #fff;
+	border-bottom:1px solid #ddd;
+	cursor:pointer;	
+	color:#444;
+}
+
+/* currently active header */
+div.panes div #accordion h2.current {
+	cursor:default;
+	background-color:#fff;
+}
+
+/* accordion pane */
+div.panes div #accordion div.pane {
+	border:1px solid #fff;
+	border-width:0 2px;
+	display:none;
+	height:300px;
+	padding:15px;
+	color:#444;
+	font-size:12px;
+}
+
+/* a title inside pane */
+div.panes div #accordion div.pane h3 {
+	font-weight:bold;
+	font-style:normal;
+	margin:-5px 0 0 0;
+	font-size:120%;
+	color:#444;
+	clear:left;
+}
+
+div.panes div #accordion div.pane img {
+	margin-top:3px;
+	margin-right:7px;
+	float:left;
+}
+
+div.panes div #accordion div.pane span {
+	margin-top:5px;
+	margin-right:7px;
+	float:left;
+}

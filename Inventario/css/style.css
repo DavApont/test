@@ -1,0 +1,145 @@
+
+.textLinks_noUnderline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.textLinks_underline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.text_Warning {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.windowParameters {
+	border: 0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	background-color:#F5F5F5;
+}
+	
+.normalText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}		
+.alarmText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FF2222
+}	
+.normalTextFormElement {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color:#EEEEEE
+}
+.normalTextFormElementBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color:#FFFFFF
+}
+.btnTextFont {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight:bold
+}
+.navTitleServices {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	font-weight:bold;
+	background-image: url(/imgs/frame_menu_TM2.jpg)}
+.pageTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight:bold
+}
+.sectionTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight:bold;
+	background-image: url(/imgs/frame_content_TM.jpg);
+}
+
+.Menu_MLGrey {
+	background-image: url(/imgs/frame_Menu_MLGrey.jpg);
+}
+.Menu_MRGrey {
+	background-image: url(/imgs/frame_Menu_MRGrey.jpg);
+}
+.frame_BM {
+	background-image: url(/imgs/frame_BM.jpg);
+}
+.table_TMGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	background-image: url(/imgs/table_TM.jpg);
+}
+.table_MMGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	background-color:#DFDFDF;
+}
+.table_TLGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	background-image: url(/imgs/table_TL_back.jpg);
+}
+.table_TRGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	background-image: url(/imgs/table_TR_back.jpg);
+}
+.table_BMGrey {
+	background-image: url(/imgs/table_BM.jpg);
+}
+.tableSpacer {
+	background-image: url(/imgs/tableSpacer1.gif);
+}
+.table_generalInfo {
+	background-color: #E8E8E8;	
+}
+.table_ML {
+	background-image: url(/imgs/table_ML.jpg);	
+}
+.table_MR {
+	background-image: url(/imgs/table_MR.jpg);
+}
+.crumbTrailBack {
+	background-image: url(../imgs/breadCrumb_25.jpg);
+}
+.navTitleGeneral {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight:bold
+}

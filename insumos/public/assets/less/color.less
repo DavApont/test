@@ -1,0 +1,27 @@
+@color1-1: #3A3633;
+
+/* Menu Principal */
+@bg-navbar-color: @color1-1;
+@text-navbar-color: contrast(@bg-menuv-item-color);
+
+@bg-navbar-item-color-hover: darken(@bg-navbar-color, 5%);
+@bg-navbar-item-color-active: darken(@bg-navbar-color, 10%);
+@border-navbar-btn-item-color: darken(@bg-navbar-color, 10%);
+
+/* Menu Verical */
+@bg-menuv-item-color: @color1-1;
+@bg-menuv-item-color-hover: darken(@bg-menuv-item-color, 5%);
+@bg-menuv-item-color-active: darken(@bg-menuv-item-color, 10%);
+@bg-sub-menuv-item-color: lighten(@color1-1, 10%);
+@bg-sub-menuv-item-color-hover: darken(@bg-sub-menuv-item-color, 5%);
+@bg-sub-menuv-item-color-active: darken(@bg-sub-menuv-item-color, 10%);
+
+@text-menuv-item-color: contrast(@bg-menuv-item-color);
+@text-sub-menuv-item-color: contrast(@bg-menuv-item-color);
+
+/* Bradcrumb */
+
+@bg-breadcrumb-color: lighten(@color1-1, 15%); 
+
+@text-a-color: darken(#FFFFFF, 15%);
+@text-a-active-color: @text-menuv-item-color;

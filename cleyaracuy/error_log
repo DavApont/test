@@ -1,0 +1,4 @@
+[27-Nov-2009 00:42:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_88013f5fe71bd1f84ac119821466dd2b, O_RDWR) failed: Permission denied (13) in /home/cleyarac/public_html/connections/estandares.php on line 3
+[27-Nov-2009 00:42:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/cleyarac/public_html/connections/estandares.php:3) in /home/cleyarac/public_html/connections/estandares.php on line 3
+[27-Nov-2009 00:42:58] PHP Warning:  Unknown: open(/tmp/sess_88013f5fe71bd1f84ac119821466dd2b, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[27-Nov-2009 00:42:58] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct () in Unknown on line 0

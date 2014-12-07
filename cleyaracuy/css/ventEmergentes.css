@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+a[href="#portada.php"]{position:relative; margin:0px 0px 0px 15px;}
+a.disparador{position:relative;	margin:0px 0px 0px 6px;}
+
+/* Sección Ppal. Panel Izquierdo de Navegación */
+a[href="#secciones/reforma/reformaYaracuy.php"]{
+	display:inline-block;
+	height:39px;
+	width:175px;
+	background: transparent url(../img/enlaceReforma.png) no-repeat 0px 0px;
+	margin-left:10px;
+}
+a[href="#secciones/reforma/reformaYaracuy.php"]:hover{
+	background-position: 0px -40px;
+}
+
+a[href="#secciones/foro/index.php"]{
+	display:inline-block;
+	height:39px;
+	width:175px;
+	background: transparent url(../img/enlaceColumnas.png) no-repeat 0px 0px;
+	margin-left:10px;
+}
+a[href="#secciones/foro/index.php"]:hover{
+	background-position: 0px -40px;
+}
+
+
+a[href="#secciones/historia/index.php"]{
+	display:inline-block;
+	height:39px;
+	width:175px;
+	background: transparent url(../img/enlaceHistoria.png) no-repeat 0px 0px;
+	margin-left:10px;
+}
+a[href="#secciones/historia/index.php"]:hover{
+	background-position: 0px -40px;
+}
+
+a[href="#secciones/efemerides/efemerides.php"]{
+	display:inline-block;
+	height:39px;
+	width:175px;
+	background: transparent url(../img/enlaceEfemerides.png) no-repeat 0px 0px;
+	margin-left:10px;
+}
+a[href="#secciones/efemerides/efemerides.php"]:hover{
+	background-position: 0px -40px;
+}
+
+#sec-ppal a[href="http://www.mozilla-europe.org/es/firefox/"]{
+	display:inline-block;
+	height:39px;
+	width:175px;
+	background: transparent url(../img/enlaceFirefox.png) no-repeat 0px 0px;
+	margin-left:10px;
+}
+#sec-ppal a[href="http://www.mozilla-europe.org/es/firefox/"]:hover{
+	background-position: 0px -40px;
+}
+
+/* CONFIGURACIONES COMUNES PARA TODAS LAS VENTANAS EMERGENTES */
+div.ventanaEmergente{
+	background-image:url(../img/fondoVentanaBlanco.png);
+	width:650px;
+	height:380px;
+	padding: 0 25px 0 25px;
+	display:none;
+}
+#ventanaLogin{
+	width:300px;
+	height:200px;
+}
+	#ventanaLogin div.close{
+		top: -5px;
+		right: -5px;
+	}
+	div.ventanaEmergente div.close{
+		background-image:url(../img/iconoCerrarVentana.png);
+		width:36px;
+		height:36px;
+		cursor:pointer;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+	
+	div.ventanaEmergente h1{
+		position:relative;
+		margin: 40px auto 0px auto;
+		color:#444444;
+		font-size:200%;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	div.ventanaEmergente p{
+		margin: 5px 40px 0px 40px;
+		font-size: 125%;
+		text-indent:25px;
+		color:#666666;
+		text-align:justify;
+	}
+	
+	div.ventanaEmergente hr{
+		margin: 10px 40px 7px 40px;
+		color: #999999;
+	}
+
+
+/* VENTANA EMERGENTE DE BÚSQUEDA */
+	#form-caja-busq-ppal{
+		display: block;
+		position: relative;
+		margin: 0px 42px;
+		*margin: -10px 25px;
+		padding: 0;
+		*padding: 0;
+	}
+	
+	#form-caja-busq-ppal legend{
+		font-size: 140%;
+		font-weight:bold;
+		color:#444444;
+		text-indent: 10px;
+		margin-top:0px;
+		margin-bottom:5px;
+		*margin-bottom: 10px;
+	}
+
+	#form-caja-busq-ppal input{
+		width: 240px;
+		padding: 5px;
+		background:transparent url(../img/adornoCampoSup.png) repeat-x scroll center top;
+		border:0 none;
+		position:absolute;
+		margin: 0px 0px 0px 34px;
+		color:#666666;
+	}
+	#busqAdornoIzq{
+		background-image: url(../img/adornoBusq.png);
+		height:24px;
+		width: 34px;
+		position:absolute;
+		margin: 0;
+	}
+	#busqAdornoDer{
+		background-image:url(../img/adornoCampoDer.png);
+		height:24px;
+		width: 10px;
+		position:absolute;
+		margin: 0px 0px 0px 284px;
+	}
+	#form-caja-busq-ppal p{
+		position: relative;
+		display:inline-block;
+		width:200px;
+		margin: -6px 0px 0px 305px;
+		font-size:100%;
+		font-style:italic;
+		text-indent:0px;
+	}
+	#form-caja-busq-ppal div.adornoIzq{
+		float:left;
+		background-image:url(../img/adornoCampoIzq.png);
+		height:24px;
+		width: 10px;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		*margin-left:0;
+	}
+	#form-caja-busq-ppal div.adornoDer{
+		float:left;
+		background-image:url(../img/adornoCampoDer.png);
+		height:24px;
+		width: 10px;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		*margin-left:0;
+		margin-right: 15px;
+		*margin-right:7px;
+	}
+	#form-caja-busq-ppal select{
+		float: left;
+		padding:3px;
+		width: 157px;
+		height: 24px;
+		background:transparent url(../img/adornoCampoSup.png) repeat-x scroll center top;
+		border:0 none;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		margin-left: 0px;
+		*margin-left:0px;
+		color: #666666;
+	}
+	#form-caja-busq-ppal select option{background-color:#fff; color:#666;}
+
+
+/* VENTANA EMERGENTE DE CORREO */
+	#form-correo-gral{
+		display: block;
+		position: relative;
+		margin: 0px 42px;
+		*margin: -10px 25px;
+		padding: 0;
+		*padding: 0;
+	}
+	#form-correo-gral legend{
+		font-size: 140%;
+		font-weight:bold;
+		color:#444444;
+		text-indent: 10px;
+		margin-top:0px;
+		margin-bottom:5px;
+		*margin-bottom: 10px;
+	}
+	#form-correo-gral div.adornoIzq{
+		float:left;
+		background-image:url(../img/adornoCampoIzq.png);
+		height:24px;
+		width: 10px;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		*margin-left:0;
+	}
+	#form-correo-gral div.adornoDer{
+		float:left;
+		background-image:url(../img/adornoCampoDer.png);
+		height:24px;
+		width: 10px;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		*margin-left:0;
+		margin-right: 15px;
+		*margin-right:7px;
+	}
+	#form-correo-gral input.introduce-apellido,input.introduce-nombre,input.introduce-ci,input.introduce-tlf,input.introduce-email{
+		float: left;
+		padding: 5px;
+		width: 127px;
+		background:transparent url(../img/adornoCampoSup.png) repeat-x scroll center top;
+		border:0 none;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		*margin-left:0;
+		color: #666666;
+	}
+	#form-correo-gral select{
+		float: left;
+		padding:3px;
+		width: 137px;
+		height: 24px;
+		background:transparent url(../img/adornoCampoSup.png) repeat-x scroll center top;
+		border:0 none;
+		margin-bottom: 10px;
+		*margin-bottom: 7px;
+		margin-left: 0px;
+		*margin-left:0px;
+		color: #666666;
+	}
+	#form-correo-gral select[name="cuenta-correo-cley"]{width: 250px;}
+	#form-correo-gral select option{background-color:#fff; color:#666;}
+	#form-correo-gral fieldset{margin:0;}
+	#form-correo-gral textarea.introduce-msj{
+		padding: 5px 5px;
+		width: 500px;
+		height: 70px;
+		color: #666666;
+	}
+		#ventanaCorreo label{
+			display: block;
+			margin-top: 3px;
+			*margin-top: 3px;
+			margin-left: 5px;
+			*margin-left: 8px;
+			color:#777777;
+		}
+		#ventanaCorreo label[for="cuenta-correo-cley"]{
+			display: inline-block;
+			float:left;
+			margin-right:15px;
+		}
+		input.form-correo-gral-btn{
+			display:block;
+			margin-top: 5px;
+			*margin-top: 10px;
+			padding: 5px 5px;
+		}
+	#form-correo-gral .btn-enviar-msj{
+		float:left;
+		margin: -27px 0px 0px 320px;
+		padding: 3px 25px;
+	}
+
+/* VENTANA EMERGENTE DE RSS */
+
+
+
+/* VENTANA EMERGENTE DE LOGIN */
+	#ventanaLogin hr{
+		margin: 10px 20px 7px 20px;		
+	}
+	
+	#form-login{
+		display: block;
+		position: relative;
+		margin: 0px 25px;
+		*margin: -10px 25px;
+		padding: 0px 28px;
+		*padding: 0px 28px;
+	}
+	#form-login div.adornoIzq{
+		float:left;
+		background-image:url(../img/adornoCampoIzq.png);
+		height:24px;
+		width: 10px;
+		margin-top: 10px;
+		*margin-top: 10px;
+		*margin-left:0;
+	}
+	#form-login div.adornoDer{
+		float:left;
+		background-image:url(../img/adornoCampoDer.png);
+		height:24px;
+		width: 10px;
+		margin-top: 10px;
+		*margin-top: 10px;
+		*margin-left:0;
+		margin-right: 0px;
+		*margin-right:0px;
+	}
+	#form-login input#usuario, input#contrasena{
+		float: left;
+		padding: 5px;
+		width: 150px;
+		background:transparent url(../img/adornoCampoSup.png) repeat-x scroll center top;
+		border:0 none;
+		margin-top: 10px;
+		*margin-top: 10px;
+		*margin-left:0;
+		color: #666666;
+	}

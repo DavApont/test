@@ -1,0 +1,48 @@
+﻿/* This tutorial is sponsored by http://www.ServerIntellect.com web hosting. 
+   Check out http://cssatoms.com/ for more great tutorials! */
+
+
+body 
+{
+    background-color: #a3e6fa;
+}
+#clouds
+{
+     background:url("clouds.png");
+     background-position: 0px 0px;
+     background-repeat: repeat-x;
+     height: 300px;
+     position: absolute;
+      -webkit-transition: all 6s linear;
+     width: 98%;    
+}
+.clouds2
+{
+    background:url("clouds2.png");
+    background-repeat: repeat-x;
+    height: 300px;
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    -webkit-transition: all 6s linear;
+    width: 98%;
+    z-index: -1;
+}
+#guy
+{
+    background:url("flying-guy.png");
+    bottom: 10px;
+    height: 300px;
+    position: absolute;
+    -webkit-transition: all 6s linear;
+    width: 200px;    
+}
+#guy:hover
+{
+    border: 1px dashed;
+    -webkit-transform: translate(600px,-600px) rotate(90deg);  
+}
+body:hover #clouds
+{
+    -webkit-transform:translate(-150px);    
+}

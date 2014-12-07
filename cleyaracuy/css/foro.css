@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* ESTILOS FOROS */
+div.bordesup-seccion-foro{background:url(../img/fondosup-seccionforo.png) no-repeat;height:5px;width:540px;margin:0px 20px 0px 15px;}
+div.bordeinf-seccion-foro{background:url(../img/fondoinf-seccionforo.png) no-repeat;height:5px;width:540px;margin:0px 20px 15px 15px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro{width:538px;*width:540px;margin:0px 20px 0px 16px;*margin-left:15px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro th.cabecera-seccion-foro{background-image:url(../img/fondo-tit-tabla-foro.png);background-repeat:repeat-x;color:#FFF;height:40px;border:none;font-weight:normal;}
+
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td span.datos-post{float:left;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro{clear:left;float:left;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td p{clear:left;float:left;text-align:justify;text-indent:0px;margin-left:0px;margin-top:10px;}
+
+/*******  Botones del post en el Foro  *************/
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Editar"]{background:url(../img/icon_post_edit.gif) no-repeat 0 0;height:20px;width:42px;float:left;margin-right:7px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Editar"]:hover{background-position:0px -20px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Eliminar"]{background:url(../img/icon_post_delete.gif) no-repeat 0 0;height:20px;width:20px;float:left;margin-right:7px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Eliminar"]:hover{background-position:0px -20px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Reportar"]{background:url(../img/icon_post_report.gif) no-repeat 0 0;height:20px;width:20px;float:left;margin-right:7px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Reportar"]:hover{background-position:0px -20px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Citar"]{background:url(../img/icon_post_quote.gif) no-repeat 0 0;height:20px;width:54px;float:left;margin-right:7px;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td div.cont-btn-post-foro a.btn-post-foro[title="Citar"]:hover{background-position:0px -20px;}
+/**************************************************************/
+
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro td{background:#f5f5f5;border-top:none;border-bottom:2px #970713 solid;border-left:none;border-right:none;vertical-align:middle;color:#444}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td{background:#f5f5f5;border-top:none;border-bottom:1px #d0d0d0 dashed;border-left:none;border-right:none;vertical-align:middle;color:#444;text-align:center;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro2 td[rowspan="2"]{border-bottom:2px #970713 solid;;text-align:center;font-weight:bold;font-size:110%;}
+#cuerpo-cont-ppal table.tabla-seccion-foro tr.lista-tema-seccion-foro3 td{background:#f5f5f5;border-top:none;border-bottom:2px #970713 solid;border-left:none;border-right:none;vertical-align:middle;color:#444;text-align:center;}
+
+
+/*************** PARTE DE LOS FORMULARIOS DENTRO DE LA PAGINA ***************************************************************/
+#cuerpo-cont-ppal .form_regular{
+		margin: 15px 20px 0px 15px;
+		padding: 7px;
+		-moz-border-radius: 5px;
+		background-color:#f5f5f5;
+		overflow:hidden;
+}
+
+	#cuerpo-cont-ppal .form_regular legend{
+		font-size: 140%;
+		font-weight:bold;
+		color:#444444;
+		margin-top:0px;
+		margin-bottom:5px;
+	}
+	#cuerpo-cont-ppal .form_regular fieldset select{padding:3px;margin-right:5px;color: #666;}
+	#cuerpo-cont-ppal .form_regular fieldset input{display:block; width:520px; padding:5px; margin-bottom:15px; color:#666666;}
+	#cuerpo-cont-ppal .form_regular fieldset input:focus{border-color:#06F; border-style:solid; border-width:medium;}
+	#cuerpo-cont-ppal .form_regular fieldset input.selecciona-fecha{padding:3px;margin-right:3px;width:auto;display:inline;}
+	#cuerpo-cont-ppal .form_regular fieldset img{margin-right:7px;}
+	#cuerpo-cont-ppal .form_regular fieldset textarea{
+		display: block;
+		width: 550px;
+		padding: 5px;
+		margin-bottom: 15px;
+		color:#666666;
+	}
+	#cuerpo-cont-ppal .form_regular fieldset label{color:#666666;display:block;margin:20px 25px 5px 7px;}
+	#cuerpo-cont-ppal .form_regular fieldset div{margin-top:20px;display:block;}
+	#cuerpo-cont-ppal .form_regular fieldset p.nota{text-indent:0;font-size:100%;margin:0 0 5px 0;}
+	#cuerpo-cont-ppal .form_regular fieldset div label{float:right;width:45%;display:inline;margin:0;padding-top: 3px;}
+	#cuerpo-cont-ppal .form_regular fieldset div label.etiq-motivo{float: none; display: block;margin:20px 25px 5px 7px;padding-top: 0px; width:auto;}
+	#cuerpo-cont-ppal .form_regular fieldset input.btnFormAJAX{display:inline;width:150px;margin:20px 50px 0 50px;}
+	
+/************************************************************************************/
+#cuerpo-cont-ppal form#buscar-efemerides fieldset select{display:inline;float:left;margin-left:0;margin-right:10px;}
+#cuerpo-cont-ppal form#buscar-efemerides fieldset input{display:inline;float:left;margin:-5px 0 0 0;}

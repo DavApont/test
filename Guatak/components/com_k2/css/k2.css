@@ -1,0 +1,2752 @@
+/***/
+/** @version        $Id: k2.css 569 2010-09-23 12:50:28Z joomlaworks $*/
+/** @package        K2*/
+/** @author        JoomlaWorks http://www.joomlaworks.gr*/
+/** @copyright    Copyright (c) 2006 - 2010 JoomlaWorks, a business unit of Nuevvo Webware Ltd. All rights reserved.*/
+/** @license        GNU/GPL license: http://www.gnu.org/copyleft/gpl.html*/
+/* */
+/**/
+/*### Legend ###*/
+/*Font families used:*/
+/*font-family:Georgia, "Times New Roman", Times, serif;*/
+/*font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;*/
+/*font-family:Arial, Helvetica, sans-serif;*/
+/**/
+/*Colors used:*/
+/*#f7fafe (light blue) used as background on all toolbars, category and user/author boxes*/
+/**/
+/**/
+/*----------------------------------------------------------------------*/
+/*Common Elements*/
+/*----------------------------------------------------------------------*/
+/*--- Basic typography ---*/
+A:active, A:focus
+{
+	outline: 0;
+}
+IMG
+{
+	border: none;
+}
+/*--- Global K2 container ---*/
+#k2Container
+{
+	padding: 0 0 24px;
+}
+BODY.contentpane #k2Container
+{
+	padding: 16px;
+}
+/*used in popups*/
+/*--- General padding ---*/
+.k2Padding
+{
+	padding: 4px;
+}
+/*--- Clearing ---*/
+.clr
+{
+	clear: both;
+	height: 0;
+	line-height: 0;
+	display: block;
+	float: none;
+}
+/*--- Zebra rows ---*/
+.even
+{
+	background: #F7F7F7;
+	padding: 2px;
+	border-bottom: 1px dotted #CCC;
+}
+.odd
+{
+	background: #FFF;
+	padding: 2px;
+	border-bottom: 1px dotted #CCC;
+}
+/*--- RSS feed icon ---*/
+DIV.k2FeedIcon
+{
+	padding: 4px 8px;
+}
+DIV.k2FeedIcon A, DIV.k2FeedIcon A:hover
+{
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: url(../images/fugue/feed.png) no-repeat 50% 50%;
+}
+DIV.k2FeedIcon A SPAN, DIV.k2FeedIcon A:hover SPAN
+{
+	display: none;
+}
+/*--- Rating ---*/
+.itemRatingForm
+{
+	display: block;
+	vertical-align: middle;
+	line-height: 25px;
+	float: left;
+}
+.itemRatingLog
+{
+	font-size: 11px;
+	margin: 0;
+	padding: 0 0 0 4px;
+	float: left;
+}
+DIV.itemRatingForm .formLogLoading
+{
+	background: url(../images/system/loading.gif) no-repeat left center;
+	height: 25px;
+	padding: 0 0 0 20px;
+}
+.itemRatingList, .itemRatingList A:hover, .itemRatingList .itemCurrentRating
+{
+	background: url(../images/system/transparent_star.gif) repeat-x left -1000px;
+}
+.itemRatingList
+{
+	position: relative;
+	float: left;
+	width: 125px;
+	height: 25px;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-position: left top;
+}
+.itemRatingList LI
+{
+	display: inline;
+	background: none;
+	padding: 0;
+}
+.itemRatingList A, .itemRatingList .itemCurrentRating
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-indent: -1000px;
+	height: 25px;
+	line-height: 25px;
+	outline: none;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+}
+.itemRatingList A:hover
+{
+	background-position: left bottom;
+}
+.itemRatingList A.one-star
+{
+	width: 20%;
+	z-index: 6;
+}
+.itemRatingList A.two-stars
+{
+	width: 40%;
+	z-index: 5;
+}
+.itemRatingList A.three-stars
+{
+	width: 60%;
+	z-index: 4;
+}
+.itemRatingList A.four-stars
+{
+	width: 80%;
+	z-index: 3;
+}
+.itemRatingList A.five-stars
+{
+	width: 100%;
+	z-index: 2;
+}
+.itemRatingList .itemCurrentRating
+{
+	z-index: 1;
+	background-position: 0 center;
+	margin: 0;
+	padding: 0;
+}
+SPAN.siteRoot
+{
+	display: none;
+}
+/*--- CSS added with Javascript ---*/
+.smallerFontSize
+{
+	font-size: 100%;
+	line-height: inherit;
+}
+.largerFontSize
+{
+	font-size: 150%;
+	line-height: 140%;
+}
+/*--- ReCaptcha ---*/
+.recaptchatable .recaptcha_image_cell, #recaptcha_table
+{
+	background-color: #FFF !important;
+}
+#recaptcha_table
+{
+	border-color: #CCC !important;
+}
+#recaptcha_response_field
+{
+	border-color: #CCC !important;
+	background-color: #FFF !important;
+}
+/*--- Primary lists in modules ---*/
+DIV.k2LatestCommentsBlock UL, DIV.k2TopCommentersBlock UL, DIV.k2ItemsBlock UL, DIV.k2LoginBlock UL, DIV.k2UserBlock UL.k2UserBlockActions, DIV.k2UserBlock UL, DIV.k2ArchivesBlock UL, DIV.k2AuthorsListBlock UL, DIV.k2CategoriesListBlock UL, DIV.k2UsersBlock UL
+{
+}
+/*Example CSS: padding:0;margin:0;list-style:none;*/
+DIV.k2LatestCommentsBlock UL LI, DIV.k2TopCommentersBlock UL LI, DIV.k2ItemsBlock UL LI, DIV.k2LoginBlock UL LI, DIV.k2UserBlock UL.k2UserBlockActions LI, DIV.k2UserBlock UL LI, DIV.k2ArchivesBlock UL LI, DIV.k2AuthorsListBlock UL LI, DIV.k2CategoriesListBlock UL LI, DIV.k2UsersBlock UL LI
+{
+}
+/*Example CSS: display:block;clear:both;padding:2px 0;border-bottom:1px dotted #ccc;*/
+.clearList
+{
+	display: none;
+	float: none;
+	clear: both;
+}
+/*this class is used to clear all previous floating list elements*/
+.lastItem
+{
+	border: none;
+}
+/*class appended on last list item*/
+/*--- Avatars ---*/
+.k2Avatar IMG
+{
+	display: block;
+	float: left;
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin: 2px 4px 4px 0;
+}
+/*--- Read more ---*/
+A.k2ReadMore
+{
+}
+A.k2ReadMore:hover
+{
+}
+/*--- Pagination ---*/
+DIV.k2Pagination
+{
+	padding: 8px;
+	margin: 24px 0 4px;
+	text-align: center;
+	color: #999;
+}
+/*--- Extra fields: CSV data styling ---*/
+TABLE.csvData
+{
+}
+TABLE.csvData TR TH
+{
+}
+TABLE.csvData TR TD
+{
+}
+/*--- Featured flags: the classes are repeated further below to indicate placement in the CSS structure ---*/
+DIV.itemIsFeatured, DIV.catItemIsFeatured, DIV.userItemIsFeatured
+{
+	background: url(../images/system/featuredItem.png) no-repeat 100% 0;
+}
+/*----------------------------------------------------------------------*/
+/*Component: Item view*/
+/*----------------------------------------------------------------------*/
+DIV.itemView
+{
+	padding: 8px 0 24px;
+	margin: 0 0 24px;
+	border-bottom: 1px dotted #CCC;
+}
+/*this is the item container for this view*/
+DIV.itemIsFeatured
+{
+}
+/*Attach a class for each featured item*/
+SPAN.itemEditLink
+{
+	display: block;
+	text-align: right;
+	padding: 16px 36px 4px 4px;
+	margin: 0 0 4px;
+	border-bottom: 2px dashed #DDD;
+}
+SPAN.itemEditLink A
+{
+}
+SPAN.itemEditLink A:hover
+{
+}
+DIV.itemHeader
+{
+}
+DIV.itemHeader SPAN.itemDateCreated
+{
+	color: #999;
+	font-size: 11px;
+}
+DIV.itemHeader H2.itemTitle
+{
+	font-family: Verdana;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 110%;
+	padding: 10px 0 4px;
+	margin: 0;
+}
+DIV.itemHeader H2.itemTitle SPAN
+{
+}
+DIV.itemHeader H2.itemTitle SPAN SUP
+{
+	font-size: 12px;
+	color: #CF1919;
+	text-decoration: none;
+}
+/*"Featured" presented in superscript*/
+DIV.itemHeader SPAN.itemAuthor
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+DIV.itemHeader SPAN.itemAuthor A
+{
+}
+DIV.itemHeader SPAN.itemAuthor A:hover
+{
+}
+DIV.itemToolbar
+{
+	padding: 2px 0;
+	margin: 16px 0 0;
+	border-top: 1px dotted #CCC;
+	border-bottom: 1px dotted #CCC;
+	background: #F7F7F7;
+}
+DIV.itemToolbar UL
+{
+	text-align: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+DIV.itemToolbar UL LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px 0 8px;
+	margin: 0;
+	border-left: 1px solid #CCC;
+	text-align: center;
+	background: none;
+	font-size: 12px;
+}
+DIV.itemToolbar UL > LI:first-child
+{
+	border: none;
+}
+/*remove the first CSS border from the left of the toolbar*/
+DIV.itemToolbar UL LI A
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+DIV.itemToolbar UL LI A:hover
+{
+}
+DIV.itemToolbar UL LI A SPAN
+{
+}
+DIV.itemToolbar UL LI A.itemPrintLink
+{
+}
+DIV.itemToolbar UL LI A.itemPrintLink SPAN
+{
+}
+DIV.itemToolbar UL LI A.itemEmailLink
+{
+}
+DIV.itemToolbar UL LI A.itemEmailLink SPAN
+{
+}
+DIV.itemToolbar UL LI A.itemVideoLink
+{
+}
+DIV.itemToolbar UL LI A.itemVideoLink SPAN
+{
+}
+DIV.itemToolbar UL LI A.itemImageGalleryLink
+{
+}
+DIV.itemToolbar UL LI A.itemImageGalleryLink SPAN
+{
+}
+DIV.itemToolbar UL LI A.itemCommentsLink
+{
+}
+DIV.itemToolbar UL LI A.itemCommentsLink SPAN
+{
+}
+DIV.itemToolbar UL LI A IMG
+{
+	vertical-align: middle;
+}
+DIV.itemToolbar UL LI SPAN.itemTextResizerTitle
+{
+}
+DIV.itemToolbar UL LI A#fontDecrease
+{
+	margin: 0 0 0 2px;
+}
+DIV.itemToolbar UL LI A#fontDecrease IMG
+{
+	width: 13px;
+	height: 13px;
+	background: url(../images/system/font_decrease.gif) no-repeat;
+}
+DIV.itemToolbar UL LI A#fontIncrease
+{
+	margin: 0 0 0 2px;
+}
+DIV.itemToolbar UL LI A#fontIncrease IMG
+{
+	width: 13px;
+	height: 13px;
+	background: url(../images/system/font_increase.gif) no-repeat;
+}
+DIV.itemToolbar UL LI A#fontDecrease SPAN, DIV.itemToolbar UL LI A#fontIncrease SPAN
+{
+	display: none;
+}
+DIV.itemRatingBlock
+{
+	padding: 8px 0;
+}
+DIV.itemRatingBlock SPAN
+{
+	display: block;
+	float: left;
+	font-style: normal;
+	padding: 0 4px 0 0;
+	margin: 0;
+	color: #999;
+}
+DIV.itemBody
+{
+	padding: 8px 0;
+	margin: 0;
+}
+DIV.itemImageBlock
+{
+	float: left;
+	padding: 8px;
+	margin: 0 0 16px;
+}
+SPAN.itemImage
+{
+	display: block;
+	text-align: center;
+	margin: 0 0 8px;
+}
+SPAN.itemImage IMG
+{
+	border: 1px solid #CCC;
+	padding: 8px;
+}
+SPAN.itemImageCaption
+{
+	color: #666;
+	float: left;
+	display: block;
+	font-size: 11px;
+}
+SPAN.itemImageCredits
+{
+	color: #999;
+	float: right;
+	display: block;
+	font-style: italic;
+	font-size: 11px;
+}
+DIV.itemIntroText
+{
+	color: #444;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 4px 0 12px;
+}
+DIV.itemIntroText IMG
+{
+}
+DIV.itemFullText
+{
+}
+DIV.itemFullText H3
+{
+	margin: 0;
+	padding: 16px 0 4px;
+}
+DIV.itemFullText P
+{
+}
+DIV.itemFullText IMG
+{
+}
+DIV.itemExtraFields
+{
+	margin: 16px 0 0;
+	padding: 8px 0 0;
+	border-top: 1px dotted #DDD;
+}
+DIV.itemExtraFields H3
+{
+	margin: 0;
+	padding: 0 0 8px;
+	line-height: normal !important;
+}
+DIV.itemExtraFields UL
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+DIV.itemExtraFields UL LI
+{
+	display: block;
+}
+DIV.itemExtraFields UL LI SPAN.itemExtraFieldsLabel
+{
+	display: block;
+	float: left;
+	font-weight: bold;
+	margin: 0 4px 0 0;
+	width: 30%;
+}
+DIV.itemExtraFields UL LI SPAN.itemExtraFieldsValue
+{
+}
+SPAN.itemDateModified
+{
+	display: block;
+	text-align: right;
+	padding: 4px;
+	margin: 16px 0 4px;
+	color: #999;
+	border-top: 1px solid #DDD;
+}
+DIV.itemLinks
+{
+	margin: 0 0 16px;
+	padding: 0;
+}
+DIV.itemHitsTwitter
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+SPAN.itemHits
+{
+}
+SPAN.itemHitsTwitterSep
+{
+	padding: 0 8px;
+	color: #CCC;
+}
+SPAN.itemTwitterLink
+{
+}
+SPAN.itemTwitterLink A
+{
+	background: url(../images/social/twitter_16.png) no-repeat 0 50%;
+	padding: 2px 0 0 20px;
+	margin: 8px 0;
+	text-decoration: none;
+}
+SPAN.itemTwitterLink A:hover
+{
+	text-decoration: none;
+}
+DIV.itemCategory
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.itemCategory SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.itemCategory A
+{
+}
+DIV.itemTagsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.itemTagsBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.itemTagsBlock UL.itemTags
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+DIV.itemTagsBlock UL.itemTags LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px 0 0;
+	margin: 0;
+	text-align: center;
+}
+DIV.itemTagsBlock UL.itemTags LI A
+{
+}
+DIV.itemTagsBlock UL.itemTags LI A:hover
+{
+}
+DIV.itemSocialLinksBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.itemSocialLinksBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+	float: left;
+	display: block;
+}
+DIV.itemSocialLinksBlock UL.itemSocialLinks
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+DIV.itemSocialLinksBlock UL.itemSocialLinks LI
+{
+	float: left;
+	list-style: none;
+	padding: 0 4px;
+	margin: 0;
+}
+DIV.itemSocialLinksBlock UL.itemSocialLinks LI A
+{
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+DIV.itemSocialLinksBlock UL.itemSocialLinks LI A:hover
+{
+}
+DIV.itemSocialLinksBlock UL.itemSocialLinks LI A SPAN
+{
+	display: none;
+}
+A.delicious
+{
+	background-image: url(../images/social/delicious_16.png);
+}
+A.digg
+{
+	background-image: url(../images/social/digg_16.png);
+}
+A.facebook
+{
+	background-image: url(../images/social/facebook_16.png);
+}
+A.googlebuzz
+{
+	background-image: url(../images/social/googlebuzz_16.png);
+}
+A.myspace
+{
+	background-image: url(../images/social/myspace_16.png);
+}
+A.reddit
+{
+	background-image: url(../images/social/reddit_16.png);
+}
+A.stumble
+{
+	background-image: url(../images/social/stumbleupon_16.png);
+}
+A.technorati
+{
+	background-image: url(../images/social/technorati_16.png);
+}
+DIV.itemAttachmentsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.itemAttachmentsBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.itemAttachmentsBlock UL.itemAttachments
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+DIV.itemAttachmentsBlock UL.itemAttachments LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px;
+	margin: 0;
+	text-align: center;
+}
+DIV.itemAttachmentsBlock UL.itemAttachments LI A
+{
+}
+DIV.itemAttachmentsBlock UL.itemAttachments LI A:hover
+{
+}
+DIV.itemAttachmentsBlock UL.itemAttachments LI SPAN
+{
+	font-size: 10px;
+	color: #999;
+	font-weight: normal;
+}
+/*Author block*/
+DIV.itemAuthorBlock
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 0 0 16px;
+	padding: 8px;
+}
+DIV.itemAuthorBlock IMG.itemAuthorAvatar
+{
+	float: left;
+	display: block;
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin: 0 8px 0 0;
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails
+{
+	margin: 0;
+	padding: 4px 0 0;
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails H3.authorName
+{
+	margin: 0 0 4px;
+	padding: 0;
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails H3.authorName A
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails H3.authorName A:hover
+{
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails P
+{
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails SPAN.itemAuthorUrl
+{
+	font-weight: bold;
+	color: #555;
+	border-right: 1px solid #CCC;
+	padding: 0 8px 0 0;
+	margin: 0 4px 0 0;
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails SPAN.itemAuthorEmail
+{
+	font-weight: bold;
+	color: #555;
+}
+DIV.itemAuthorBlock DIV.itemAuthorDetails SPAN.itemAuthorUrl A, DIV.itemAuthorBlock DIV.itemAuthorDetails SPAN.itemAuthorEmail A
+{
+	font-weight: normal;
+}
+/*Author latest*/
+DIV.itemRelated
+{
+	margin-bottom: 16px;
+	padding: 0;
+}
+/*Related by tag*/
+DIV.itemAuthorLatest
+{
+	margin-bottom: 16px;
+	padding: 0;
+}
+/*Video*/
+DIV.itemVideoBlock
+{
+	margin: 0 0 16px;
+	padding: 16px;
+	background: #010101 url(../images/system/videoplayer-bg.gif) repeat-x bottom;
+}
+DIV.itemVideoBlock DIV.itemVideoEmbedded
+{
+	text-align: center;
+}
+/*for embedded videos (not using AllVideos)*/
+DIV.itemVideoBlock SPAN.itemVideo
+{
+	display: block;
+	overflow: hidden;
+}
+DIV.itemVideoBlock SPAN.itemVideoCaption
+{
+	color: #EEE;
+	float: left;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	width: 60%;
+}
+DIV.itemVideoBlock SPAN.itemVideoCredits
+{
+	color: #EEE;
+	float: right;
+	display: block;
+	font-style: italic;
+	font-size: 11px;
+	width: 35%;
+	text-align: right;
+}
+/*Image Gallery*/
+DIV.itemImageGallery
+{
+	margin: 0 0 16px;
+	padding: 0;
+}
+/*Article navigation*/
+DIV.itemNavigation
+{
+	padding: 4px 8px;
+	margin: 0 0 24px;
+	border-top: 1px dotted #CCC;
+	border-bottom: 1px dotted #CCC;
+	background: #F7F7F7;
+}
+DIV.itemNavigation SPAN.itemNavigationTitle
+{
+	color: #999;
+}
+DIV.itemNavigation A.itemPrevious
+{
+	padding: 0 12px;
+}
+DIV.itemNavigation A.itemNext
+{
+	padding: 0 12px;
+}
+/*Comments*/
+DIV.itemComments
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	padding: 16px;
+}
+DIV.itemComments UL.itemCommentsList
+{
+	margin: 0 0 16px;
+	padding: 0;
+	list-style: none;
+}
+DIV.itemComments UL.itemCommentsList LI
+{
+	padding: 4px;
+	margin: 0;
+	border-bottom: 1px dotted #DDD;
+}
+DIV.itemComments UL.itemCommentsList LI.authorResponse
+{
+	background: url(../images/system/stripes.png) repeat;
+}
+DIV.itemComments UL.itemCommentsList LI IMG
+{
+	float: left;
+	margin: 4px 4px 4px 0;
+	padding: 4px;
+	background: #FFF;
+	border-bottom: 1px solid #D7D7D7;
+	border-left: 1px solid #F2F2F2;
+	border-right: 1px solid #F2F2F2;
+}
+DIV.itemComments UL.itemCommentsList LI SPAN.commentDate
+{
+	padding: 0 4px 0 0;
+	margin: 0 8px 0 0;
+	border-right: 1px solid #CCC;
+	font-weight: bold;
+	font-size: 14px;
+}
+DIV.itemComments UL.itemCommentsList LI SPAN.commentAuthorName
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+DIV.itemComments UL.itemCommentsList LI P
+{
+	padding: 4px 0;
+}
+DIV.itemComments UL.itemCommentsList LI SPAN.commentAuthorEmail
+{
+	display: none;
+}
+DIV.itemComments UL.itemCommentsList LI SPAN.commentLink
+{
+	float: right;
+}
+DIV.itemComments UL.itemCommentsList LI SPAN.commentLink A
+{
+	font-size: 11px;
+	color: #999;
+	text-decoration: underline;
+}
+DIV.itemComments UL.itemCommentsList LI SPAN.commentLink A:hover
+{
+	font-size: 11px;
+	color: #555;
+	text-decoration: underline;
+}
+DIV.itemCommentsPagination
+{
+	padding: 4px;
+	margin: 0 0 24px;
+}
+DIV.itemCommentsPagination SPAN.pagination
+{
+	display: block;
+	float: right;
+	clear: both;
+}
+DIV.itemCommentsForm H3
+{
+	margin: 0;
+	padding: 0 0 4px;
+}
+DIV.itemCommentsForm P.itemCommentsFormNotes
+{
+	border-top: 2px solid #CCC;
+}
+DIV.itemCommentsForm FORM
+{
+}
+DIV.itemCommentsForm FORM LABEL.formComment
+{
+	display: block;
+	margin: 12px 0 0 2px;
+}
+DIV.itemCommentsForm FORM LABEL.formName
+{
+	display: block;
+	margin: 12px 0 0 2px;
+}
+DIV.itemCommentsForm FORM LABEL.formEmail
+{
+	display: block;
+	margin: 12px 0 0 2px;
+}
+DIV.itemCommentsForm FORM LABEL.formUrl
+{
+	display: block;
+	margin: 12px 0 0 2px;
+}
+DIV.itemCommentsForm FORM LABEL.formRecaptcha
+{
+	display: block;
+	margin: 12px 0 0 2px;
+}
+DIV.itemCommentsForm FORM TEXTAREA.inputbox
+{
+	display: block;
+	width: 350px;
+	height: 160px;
+	margin: 0;
+}
+DIV.itemCommentsForm FORM INPUT.inputbox
+{
+	display: block;
+	width: 350px;
+	margin: 0;
+}
+DIV.itemCommentsForm FORM INPUT#submitCommentButton
+{
+	display: block;
+	margin: 16px 0 0;
+	padding: 4px;
+	border: 1px solid #CCC;
+	background: #EEE;
+	font-size: 16px;
+}
+DIV.itemCommentsForm FORM SPAN#formLog
+{
+	margin: 0 0 0 20px;
+	padding: 0 0 0 20px;
+	font-weight: bold;
+	color: #CF1919;
+}
+DIV.itemCommentsForm FORM .formLogLoading
+{
+	background: url(../images/system/loading.gif) no-repeat left center;
+}
+/*Back to top link*/
+DIV.itemBackToTop
+{
+	text-align: right;
+}
+DIV.itemBackToTop A
+{
+	text-decoration: underline;
+}
+DIV.itemBackToTop A:hover
+{
+	text-decoration: underline;
+}
+/*----------------------------------------------------------------------*/
+/*Component: Itemlist view (category)*/
+/*----------------------------------------------------------------------*/
+DIV.itemListCategoriesBlock
+{
+}
+/*--- Category block ---*/
+DIV.itemListCategory
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 4px 0;
+	padding: 8px;
+}
+SPAN.catItemAddLink
+{
+	clear: both;
+	display: block;
+	text-align: right;
+	padding: 4px;
+	margin: 0 0 4px;
+	border-bottom: 2px dashed #DDD;
+}
+SPAN.catItemAddLink A
+{
+}
+SPAN.catItemAddLink A:hover
+{
+}
+DIV.itemListCategory IMG
+{
+	float: left;
+	display: block;
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin: 0 8px 0 0;
+}
+DIV.itemListCategory H2
+{
+}
+DIV.itemListCategory P
+{
+}
+/*--- Sub-category block ---*/
+DIV.itemListSubCategories
+{
+}
+DIV.itemListSubCategories H3
+{
+}
+DIV.subCategoryContainer
+{
+	float: left;
+}
+DIV.subCategoryContainerLast
+{
+}
+/*this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container)*/
+DIV.subCategory
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 4px;
+	padding: 8px;
+}
+DIV.subCategory A.subCategoryImage, DIV.subCategory A.subCategoryImage:hover
+{
+	text-align: center;
+	display: block;
+}
+DIV.subCategory A.subCategoryImage IMG, DIV.subCategory A.subCategoryImage:hover IMG
+{
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin: 0 8px 0 0;
+}
+DIV.subCategory H2
+{
+}
+DIV.subCategory H2 A
+{
+}
+DIV.subCategory H2 A:hover
+{
+}
+DIV.subCategory P
+{
+}
+/*--- Item groups ---*/
+DIV.itemList
+{
+}
+DIV#itemListLeading
+{
+}
+DIV#itemListPrimary
+{
+}
+DIV#itemListSecondary
+{
+}
+DIV#itemListLinks
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 8px 0;
+	padding: 8px;
+}
+DIV.itemContainer
+{
+	float: left;
+}
+DIV.itemContainerLast
+{
+}
+/*this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container)*/
+/*--- Item block for each item group ---*/
+DIV.catItemView
+{
+	padding: 4px;
+}
+/*this is the item container for this view - we add a generic padding so that items don't get stuck with each other*/
+/*Additional class appended to the element above for further styling per group item*/
+DIV.groupLeading
+{
+}
+DIV.groupPrimary
+{
+}
+DIV.groupSecondary
+{
+}
+DIV.groupLinks
+{
+	padding: 0;
+	margin: 0;
+}
+DIV.catItemIsFeatured
+{
+}
+/*Attach a class for each featured item*/
+SPAN.catItemEditLink
+{
+	display: block;
+	text-align: right;
+	padding: 16px 36px 4px 4px;
+	margin: 0 0 4px;
+	border-bottom: 2px dashed #DDD;
+}
+SPAN.catItemEditLink A
+{
+}
+SPAN.catItemEditLink A:hover
+{
+}
+DIV.catItemHeader
+{
+}
+DIV.catItemHeader SPAN.catItemDateCreated
+{
+	color: #999;
+	font-size: 11px;
+}
+DIV.catItemHeader H3.catItemTitle
+{
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 110%;
+	padding: 10px 0 4px;
+	margin: 0;
+}
+DIV.catItemHeader H3.catItemTitle SPAN
+{
+}
+DIV.catItemHeader H3.catItemTitle SPAN SUP
+{
+	font-size: 12px;
+	color: #CF1919;
+	text-decoration: none;
+}
+/*superscript*/
+DIV.catItemHeader SPAN.catItemAuthor
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+DIV.catItemHeader SPAN.catItemAuthor A
+{
+}
+DIV.catItemHeader SPAN.catItemAuthor A:hover
+{
+}
+DIV.catItemRatingBlock
+{
+	padding: 8px 0;
+}
+DIV.catItemRatingBlock SPAN
+{
+	display: block;
+	float: left;
+	font-style: normal;
+	padding: 0 4px 0 0;
+	margin: 0;
+	color: #999;
+}
+DIV.catItemBody
+{
+	padding: 8px 0;
+	margin: 0;
+}
+DIV.catItemImageBlock
+{
+	float: left;
+	padding: 8px;
+	margin: 0 0 16px;
+}
+SPAN.catItemImage
+{
+	display: block;
+	text-align: center;
+	margin: 0 0 8px;
+}
+SPAN.catItemImage IMG
+{
+	border: 1px solid #CCC;
+	padding: 8px;
+}
+DIV.catItemIntroText
+{
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	padding: 4px 0 12px;
+}
+DIV.catItemIntroText IMG
+{
+}
+DIV.catItemExtraFields, DIV.genericItemExtraFields
+{
+	margin: 16px 0 0;
+	padding: 8px 0 0;
+	border-top: 1px dotted #DDD;
+}
+DIV.catItemExtraFields H4, DIV.genericItemExtraFields H4
+{
+	margin: 0;
+	padding: 0 0 8px;
+	line-height: normal !important;
+}
+DIV.catItemExtraFields UL, DIV.genericItemExtraFields UL
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+DIV.catItemExtraFields UL LI, DIV.genericItemExtraFields UL LI
+{
+	display: block;
+}
+DIV.catItemExtraFields UL LI SPAN.catItemExtraFieldsLabel, DIV.genericItemExtraFields UL LI SPAN.genericItemExtraFieldsLabel
+{
+	display: block;
+	float: left;
+	font-weight: bold;
+	margin: 0 4px 0 0;
+	width: 30%;
+}
+DIV.catItemExtraFields UL LI SPAN.catItemExtraFieldsValue
+{
+}
+DIV.catItemLinks
+{
+	margin: 0 0 16px;
+	padding: 0;
+}
+DIV.catItemHitsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+SPAN.catItemHits
+{
+}
+DIV.catItemCategory
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.catItemCategory SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.catItemCategory A
+{
+}
+DIV.catItemTagsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.catItemTagsBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.catItemTagsBlock UL.catItemTags
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+DIV.catItemTagsBlock UL.catItemTags LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px 0 0;
+	margin: 0;
+	text-align: center;
+}
+DIV.catItemTagsBlock UL.catItemTags LI A
+{
+}
+DIV.catItemTagsBlock UL.catItemTags LI A:hover
+{
+}
+DIV.catItemAttachmentsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.catItemAttachmentsBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.catItemAttachmentsBlock UL.catItemAttachments
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+DIV.catItemAttachmentsBlock UL.catItemAttachments LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px;
+	margin: 0;
+	text-align: center;
+}
+DIV.catItemAttachmentsBlock UL.catItemAttachments LI A
+{
+}
+DIV.catItemAttachmentsBlock UL.catItemAttachments LI A:hover
+{
+}
+DIV.catItemAttachmentsBlock UL.catItemAttachments LI SPAN
+{
+	font-size: 10px;
+	color: #999;
+	font-weight: normal;
+}
+/*Video*/
+DIV.catItemVideoBlock
+{
+	margin: 0 0 16px;
+	padding: 16px;
+	background: #010101 url(../images/system/videoplayer-bg.gif) repeat-x bottom;
+}
+DIV.catItemVideoBlock DIV.catItemVideoEmbedded
+{
+	text-align: center;
+}
+/*for embedded videos (not using AllVideos)*/
+DIV.catItemVideoBlock SPAN.catItemVideo
+{
+	display: block;
+}
+/*Image Gallery*/
+DIV.catItemImageGallery
+{
+	margin: 0 0 16px;
+	padding: 0;
+}
+/*Anchor link to comments*/
+DIV.catItemCommentsLink
+{
+	display: inline;
+	margin: 0 8px 0 0;
+	padding: 0 8px 0 0;
+	border-right: 1px solid #CCC;
+}
+DIV.catItemCommentsLink A
+{
+}
+DIV.catItemCommentsLink A:hover
+{
+}
+/*Read more link*/
+DIV.catItemReadMore
+{
+	display: inline;
+}
+DIV.catItemReadMore A
+{
+}
+DIV.catItemReadMore A:hover
+{
+}
+/*Modified date*/
+SPAN.catItemDateModified
+{
+	display: block;
+	text-align: right;
+	padding: 4px;
+	margin: 4px 0;
+	color: #999;
+	border-top: 1px solid #DDD;
+}
+/*----------------------------------------------------------------------*/
+/*Component: Itemlist view (user)*/
+/*----------------------------------------------------------------------*/
+/*User info block*/
+DIV.userView
+{
+}
+DIV.userBlock
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 0 0 16px;
+	padding: 8px;
+	clear: both;
+}
+SPAN.userItemAddLink
+{
+	display: block;
+	text-align: right;
+	padding: 4px;
+	margin: 0 0 4px;
+	border-bottom: 2px dashed #DDD;
+}
+SPAN.userItemAddLink A
+{
+}
+SPAN.userItemAddLink A:hover
+{
+}
+DIV.userBlock IMG
+{
+	display: block;
+	float: left;
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin: 0 8px 0 0;
+}
+DIV.userBlock H2
+{
+}
+DIV.userBlock P.userDescription
+{
+	padding: 4px 0;
+}
+DIV.userBlock P.userAdditionalInfo
+{
+	padding: 4px 0;
+	margin: 8px 0 0;
+	border-top: 1px dotted #CCC;
+}
+SPAN.userURL
+{
+	font-weight: bold;
+	color: #555;
+	display: block;
+}
+SPAN.userEmail
+{
+	font-weight: bold;
+	color: #555;
+	display: block;
+}
+DIV.userItemList
+{
+}
+/*User items*/
+DIV.userItemView
+{
+}
+/*this is the item container for this view*/
+DIV.userItemIsFeatured
+{
+}
+/*Attach a class for each featured item*/
+DIV.userItemViewUnpublished
+{
+	opacity: 0.9;
+	border: 4px dashed #CCC;
+	background: #FFFFF2;
+	padding: 8px;
+}
+SPAN.userItemEditLink
+{
+	display: block;
+	text-align: right;
+	padding: 16px 36px 4px 4px;
+	margin: 0 0 4px;
+	border-bottom: 2px dashed #DDD;
+}
+SPAN.userItemEditLink A
+{
+}
+SPAN.userItemEditLink A:hover
+{
+}
+DIV.userItemHeader
+{
+}
+DIV.userItemHeader SPAN.userItemDateCreated
+{
+	color: #999;
+	font-size: 11px;
+}
+DIV.userItemHeader H3.userItemTitle
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 110%;
+	padding: 10px 0 4px;
+	margin: 0;
+}
+DIV.userItemHeader H3.userItemTitle SPAN SUP
+{
+	font-size: 12px;
+	color: #CF1919;
+	text-decoration: none;
+}
+/*"Unpublished" presented in superscript*/
+DIV.userItemBody
+{
+	padding: 8px 0;
+	margin: 0;
+}
+DIV.userItemImageBlock
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+SPAN.userItemImage
+{
+	display: block;
+	text-align: center;
+	margin: 0 8px 8px 0;
+}
+SPAN.userItemImage IMG
+{
+	border: 1px solid #CCC;
+	padding: 8px;
+}
+DIV.userItemIntroText
+{
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	padding: 4px 0 12px;
+}
+DIV.userItemIntroText IMG
+{
+}
+DIV.userItemLinks
+{
+	margin: 0 0 16px;
+	padding: 0;
+}
+DIV.userItemCategory
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.userItemCategory SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.userItemCategory A
+{
+}
+DIV.userItemTagsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.userItemTagsBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.userItemTagsBlock UL.userItemTags
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+DIV.userItemTagsBlock UL.userItemTags LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px 0 0;
+	margin: 0;
+	text-align: center;
+}
+DIV.userItemTagsBlock UL.userItemTags LI A
+{
+}
+DIV.userItemTagsBlock UL.userItemTags LI A:hover
+{
+}
+/*Anchor link to comments*/
+DIV.userItemCommentsLink
+{
+	display: inline;
+	margin: 0 8px 0 0;
+	padding: 0 8px 0 0;
+	border-right: 1px solid #CCC;
+}
+DIV.userItemCommentsLink A
+{
+}
+DIV.userItemCommentsLink A:hover
+{
+}
+/*Read more link*/
+DIV.userItemReadMore
+{
+	display: inline;
+}
+DIV.userItemReadMore A
+{
+}
+DIV.userItemReadMore A:hover
+{
+}
+/*----------------------------------------------------------------------*/
+/*Component: Itemlist view (generic)*/
+/*----------------------------------------------------------------------*/
+DIV.genericItemView
+{
+	border-bottom: 1px dotted #CCC;
+	padding: 8px 0;
+	margin: 0 0 16px;
+}
+/*this is the item container for this view*/
+DIV.genericItemHeader
+{
+}
+DIV.genericItemHeader SPAN.genericItemDateCreated
+{
+	color: #999;
+	font-size: 11px;
+}
+DIV.genericItemHeader H2.genericItemTitle
+{
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 110%;
+	padding: 10px 0 4px;
+	margin: 0;
+}
+DIV.genericItemBody
+{
+	padding: 8px 0;
+	margin: 0;
+}
+DIV.genericItemImageBlock
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+SPAN.genericItemImage
+{
+	display: block;
+	text-align: center;
+	margin: 0 8px 8px 0;
+}
+SPAN.genericItemImage IMG
+{
+	border: 1px solid #CCC;
+	padding: 8px;
+}
+DIV.genericItemIntroText
+{
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	padding: 4px 0 12px;
+}
+DIV.genericItemIntroText IMG
+{
+}
+DIV.genericItemCategory
+{
+	display: inline;
+	margin: 0 8px 0 0;
+	padding: 0 8px 0 0;
+	border-right: 1px solid #CCC;
+}
+DIV.genericItemCategory SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.genericItemCategory A
+{
+}
+/*Read more link*/
+DIV.genericItemReadMore
+{
+	display: inline;
+}
+DIV.genericItemReadMore A
+{
+}
+DIV.genericItemReadMore A:hover
+{
+}
+/*----------------------------------------------------------------------*/
+/*Component: Latest view*/
+/*----------------------------------------------------------------------*/
+DIV.latestItemsContainer
+{
+	float: left;
+}
+/*Category info block*/
+DIV.latestItemsCategory
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 0 8px 8px 0;
+	padding: 8px;
+}
+DIV.latestItemsCategoryImage
+{
+	text-align: center;
+}
+DIV.latestItemsCategoryImage IMG
+{
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin: 0 8px 0 0;
+}
+DIV.latestItemsCategory H2
+{
+}
+DIV.latestItemsCategory P
+{
+}
+/*User info block*/
+DIV.latestItemsUser
+{
+	background: #F7FAFE;
+	border: 1px solid #DDD;
+	margin: 0 8px 8px 0;
+	padding: 8px;
+	clear: both;
+}
+DIV.latestItemsUser IMG
+{
+	display: block;
+	float: left;
+	background: #FFF;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin: 0 8px 0 0;
+}
+DIV.latestItemsUser H2
+{
+}
+DIV.latestItemsUser P.ulatestItemsUserDescription
+{
+	padding: 4px 0;
+}
+DIV.latestItemsUser P.latestItemsUserAdditionalInfo
+{
+	padding: 4px 0;
+	margin: 8px 0 0;
+	border-top: 1px dotted #CCC;
+}
+SPAN.latestItemsUserURL
+{
+	font-weight: bold;
+	color: #555;
+	display: block;
+}
+SPAN.latestItemsUserEmail
+{
+	font-weight: bold;
+	color: #555;
+	display: block;
+}
+/*Latest items list*/
+DIV.latestItemList
+{
+	padding: 0 8px 8px 0;
+}
+DIV.latestItemView
+{
+}
+/*this is the item container for this view*/
+DIV.latestItemHeader
+{
+}
+DIV.latestItemHeader H3.latestItemTitle
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 110%;
+	padding: 10px 0 4px;
+	margin: 0;
+}
+SPAN.latestItemDateCreated
+{
+	color: #999;
+	font-size: 11px;
+}
+DIV.latestItemBody
+{
+	padding: 8px 0;
+	margin: 0;
+}
+DIV.latestItemImageBlock
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+SPAN.latestItemImage
+{
+	display: block;
+	text-align: center;
+	margin: 0 8px 8px 0;
+}
+SPAN.latestItemImage IMG
+{
+	border: 1px solid #CCC;
+	padding: 8px;
+}
+DIV.latestItemIntroText
+{
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	padding: 4px 0 12px;
+}
+DIV.latestItemIntroText IMG
+{
+}
+DIV.latestItemLinks
+{
+	margin: 0 0 16px;
+	padding: 0;
+}
+DIV.latestItemCategory
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.latestItemCategory SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.latestItemCategory A
+{
+}
+DIV.latestItemTagsBlock
+{
+	padding: 4px;
+	border-bottom: 1px dotted #CCC;
+}
+DIV.latestItemTagsBlock SPAN
+{
+	font-weight: bold;
+	color: #555;
+	padding: 0 4px 0 0;
+}
+DIV.latestItemTagsBlock UL.latestItemTags
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+DIV.latestItemTagsBlock UL.latestItemTags LI
+{
+	display: inline;
+	list-style: none;
+	padding: 0 4px 0 0;
+	margin: 0;
+	text-align: center;
+}
+DIV.latestItemTagsBlock UL.latestItemTags LI A
+{
+}
+DIV.latestItemTagsBlock UL.latestItemTags LI A:hover
+{
+}
+/*Video*/
+DIV.latestItemVideoBlock
+{
+	margin: 0 0 16px;
+	padding: 16px;
+	background: #010101 url(../images/system/videoplayer-bg.gif) repeat-x bottom;
+}
+DIV.latestItemVideoBlock SPAN.latestItemVideo
+{
+	display: block;
+}
+/*Anchor link to comments*/
+DIV.latestItemCommentsLink
+{
+	display: inline;
+	margin: 0 8px 0 0;
+	padding: 0 8px 0 0;
+	border-right: 1px solid #CCC;
+}
+DIV.latestItemCommentsLink A
+{
+}
+DIV.latestItemCommentsLink A:hover
+{
+}
+/*Read more link*/
+DIV.latestItemReadMore
+{
+	display: inline;
+}
+DIV.latestItemReadMore A
+{
+}
+DIV.latestItemReadMore A:hover
+{
+}
+/*Items presented in a list*/
+H2.latestItemTitleList
+{
+	font-size: 14px;
+	padding: 2px 0;
+	margin: 8px 0 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 1px dotted #CCC;
+	line-height: normal;
+}
+/*----------------------------------------------------------------------*/
+/*Component: Register & profile page views (register.php & profile.php)*/
+/*----------------------------------------------------------------------*/
+.k2AccountPage
+{
+}
+.k2AccountPage TABLE
+{
+}
+.k2AccountPage TABLE TR TH
+{
+}
+.k2AccountPage TABLE TR TD
+{
+}
+.k2AccountPage TABLE TR TD LABEL
+{
+	white-space: nowrap;
+}
+IMG.k2AccountPageImage
+{
+	border: 4px solid #DDD;
+	margin: 10px 0;
+	padding: 0;
+	display: block;
+}
+.k2AccountPage DIV.k2AccountPageNotice
+{
+	padding: 8px;
+}
+.k2AccountPage DIV.k2AccountPageUpdate
+{
+	border-top: 1px dotted #CCC;
+	margin: 8px 0;
+	padding: 8px;
+	text-align: right;
+}
+/*Profile edit*/
+.k2AccountPage TABLE.admintable
+{
+}
+.k2AccountPage TABLE.admintable TR TD
+{
+}
+.k2AccountPage TABLE.admintable TR TD SPAN
+{
+}
+.k2AccountPage TABLE.admintable TR TD SPAN LABEL
+{
+}
+/*----------------------------------------------------------------------*/
+/*Modules: mod_k2_comments*/
+/*----------------------------------------------------------------------*/
+/*Latest Comments*/
+DIV.k2LatestCommentsBlock
+{
+}
+DIV.k2LatestCommentsBlock UL
+{
+}
+DIV.k2LatestCommentsBlock UL LI
+{
+}
+DIV.k2LatestCommentsBlock UL LI.lastItem
+{
+}
+DIV.k2LatestCommentsBlock UL LI A.lcAvatar IMG
+{
+}
+DIV.k2LatestCommentsBlock UL LI A
+{
+}
+DIV.k2LatestCommentsBlock UL LI A:hover
+{
+}
+DIV.k2LatestCommentsBlock UL LI SPAN.lcComment
+{
+}
+DIV.k2LatestCommentsBlock UL LI SPAN.lcUsername
+{
+}
+DIV.k2LatestCommentsBlock UL LI SPAN.lcCommentDate
+{
+	color: #999;
+}
+DIV.k2LatestCommentsBlock UL LI SPAN.lcItemTitle
+{
+}
+DIV.k2LatestCommentsBlock UL LI SPAN.lcItemCategory
+{
+}
+/*Top Commenters*/
+DIV.k2TopCommentersBlock
+{
+}
+DIV.k2TopCommentersBlock UL
+{
+}
+DIV.k2TopCommentersBlock UL LI
+{
+}
+DIV.k2TopCommentersBlock UL LI.lastItem
+{
+}
+DIV.k2TopCommentersBlock UL LI A.tcAvatar IMG
+{
+}
+DIV.k2TopCommentersBlock UL LI A.tcLink
+{
+}
+DIV.k2TopCommentersBlock UL LI A.tcLink:hover
+{
+}
+DIV.k2TopCommentersBlock UL LI SPAN.tcUsername
+{
+}
+DIV.k2TopCommentersBlock UL LI SPAN.tcCommentsCounter
+{
+}
+DIV.k2TopCommentersBlock UL LI A.tcLatestComment
+{
+}
+DIV.k2TopCommentersBlock UL LI A.tcLatestComment:hover
+{
+}
+DIV.k2TopCommentersBlock UL LI SPAN.tcLatestCommentDate
+{
+	color: #999;
+}
+/*----------------------------------------------------------------------*/
+/*Modules: mod_k2_content*/
+/*----------------------------------------------------------------------*/
+DIV.k2ItemsBlock
+{
+}
+DIV.k2ItemsBlock P.modulePretext
+{
+}
+DIV.k2ItemsBlock UL
+{
+}
+DIV.k2ItemsBlock UL LI
+{
+}
+DIV.k2ItemsBlock UL LI A
+{
+}
+DIV.k2ItemsBlock UL LI A:hover
+{
+}
+DIV.k2ItemsBlock UL LI.lastItem
+{
+}
+DIV.k2ItemsBlock UL LI A.moduleItemTitle
+{
+}
+DIV.k2ItemsBlock UL LI A.moduleItemTitle:hover
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemAuthor
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemAuthor A
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemAuthor A:hover
+{
+}
+DIV.k2ItemsBlock UL LI A.moduleItemAuthorAvatar IMG
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemIntrotext
+{
+	display: block;
+	padding: 4px 0;
+	line-height: 120%;
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemIntrotext A.moduleItemImage IMG
+{
+	float: right;
+	margin: 2px 0 4px 4px;
+	padding: 0;
+	border: 2px solid #DDD;
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemExtraFields
+{
+}
+DIV.moduleItemExtraFields UL
+{
+}
+DIV.moduleItemExtraFields UL LI
+{
+}
+DIV.moduleItemExtraFields UL LI SPAN.moduleItemExtraFieldsLabel
+{
+	display: block;
+	float: left;
+	font-weight: bold;
+	margin: 0 4px 0 0;
+	width: 30%;
+}
+DIV.moduleItemExtraFields UL LI SPAN.moduleItemExtraFieldsValue
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemVideo
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemVideo SPAN.moduleItemVideoCaption
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemVideo SPAN.moduleItemVideoCredits
+{
+}
+DIV.k2ItemsBlock UL LI SPAN.moduleItemDateCreated
+{
+}
+DIV.k2ItemsBlock UL LI A.moduleItemCategory
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemTags
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemTags B
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemTags A
+{
+	padding: 0 2px;
+}
+DIV.k2ItemsBlock UL LI DIV.moduleItemTags A:hover
+{
+}
+DIV.k2ItemsBlock UL LI DIV.moduleAttachments
+{
+}
+DIV.k2ItemsBlock UL LI A.moduleItemComments
+{
+	border-right: 1px solid #CCC;
+	padding: 0 4px 0 0;
+	margin: 0 8px 0 0;
+}
+DIV.k2ItemsBlock UL LI A.moduleItemComments:hover
+{
+}
+DIV.k2ItemsBlock UL LI SPAN.moduleItemHits
+{
+	border-right: 1px solid #CCC;
+	padding: 0 4px 0 0;
+	margin: 0 8px 0 0;
+}
+DIV.k2ItemsBlock UL LI A.moduleItemReadMore
+{
+}
+DIV.k2ItemsBlock UL LI A.moduleItemReadMore:hover
+{
+}
+DIV.k2ItemsBlock A.moduleCustomLink
+{
+}
+DIV.k2ItemsBlock A.moduleCustomLink:hover
+{
+}
+/*----------------------------------------------------------------------*/
+/*Modules: mod_k2_login*/
+/*----------------------------------------------------------------------*/
+DIV.k2LoginBlock
+{
+}
+DIV.k2LoginBlock P.preText
+{
+}
+DIV.k2LoginBlock FIELDSET.input
+{
+	margin: 0;
+	padding: 0 0 8px;
+}
+DIV.k2LoginBlock FIELDSET.input P
+{
+	margin: 0;
+	padding: 0 0 4px;
+}
+DIV.k2LoginBlock FIELDSET.input P LABEL
+{
+	display: block;
+}
+DIV.k2LoginBlock FIELDSET.input P INPUT
+{
+	display: block;
+}
+DIV.k2LoginBlock FIELDSET.input P#form-login-remember LABEL, DIV.k2LoginBlock FIELDSET.input P#form-login-remember INPUT
+{
+	display: inline;
+}
+DIV.k2LoginBlock FIELDSET.input INPUT.button
+{
+}
+DIV.k2LoginBlock UL
+{
+}
+DIV.k2LoginBlock UL LI
+{
+}
+DIV.k2LoginBlock P.postText
+{
+}
+DIV.k2UserBlock
+{
+}
+DIV.k2UserBlock P.ubGreeting
+{
+	border-bottom: 1px dotted #CCC;
+}
+DIV.k2UserBlock DIV.k2UserBlockDetails A.ubAvatar IMG
+{
+}
+DIV.k2UserBlock DIV.k2UserBlockDetails SPAN.ubName
+{
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+DIV.k2UserBlock DIV.k2UserBlockDetails SPAN.ubCommentsCount
+{
+}
+DIV.k2UserBlock UL.k2UserBlockActions
+{
+}
+DIV.k2UserBlock UL.k2UserBlockActions LI
+{
+}
+DIV.k2UserBlock UL.k2UserBlockActions LI A
+{
+}
+DIV.k2UserBlock UL.k2UserBlockActions LI A:hover
+{
+}
+DIV.k2UserBlock FORM
+{
+}
+DIV.k2UserBlock FORM INPUT.ubLogout
+{
+}
+/*----------------------------------------------------------------------*/
+/*Modules: mod_k2_tools*/
+/*----------------------------------------------------------------------*/
+/*--- Archives ---*/
+DIV.k2ArchivesBlock
+{
+}
+DIV.k2ArchivesBlock UL
+{
+}
+DIV.k2ArchivesBlock UL LI
+{
+}
+DIV.k2ArchivesBlock UL LI A
+{
+}
+DIV.k2ArchivesBlock UL LI A:hover
+{
+}
+/*--- Authors ---*/
+DIV.k2AuthorsListBlock
+{
+}
+DIV.k2AuthorsListBlock UL
+{
+}
+DIV.k2AuthorsListBlock UL LI
+{
+}
+DIV.k2AuthorsListBlock UL LI A.abAuthorAvatar IMG
+{
+}
+DIV.k2AuthorsListBlock UL LI A.abAuthorName
+{
+}
+DIV.k2AuthorsListBlock UL LI A.abAuthorName:hover
+{
+}
+DIV.k2AuthorsListBlock UL LI A.abAuthorLatestItem
+{
+	display: block;
+	clear: both;
+}
+DIV.k2AuthorsListBlock UL LI A.abAuthorLatestItem:hover
+{
+}
+DIV.k2AuthorsListBlock UL LI SPAN.abAuthorCommentsCount
+{
+}
+/*--- Breadcrumbs ---*/
+DIV.k2BreadcrumbsBlock
+{
+}
+DIV.k2BreadcrumbsBlock SPAN.bcTitle
+{
+	padding: 0 4px 0 0;
+	color: #999;
+}
+DIV.k2BreadcrumbsBlock A
+{
+}
+DIV.k2BreadcrumbsBlock A:hover
+{
+}
+DIV.k2BreadcrumbsBlock SPAN.bcSeparator
+{
+	padding: 0 4px;
+	font-size: 14px;
+}
+/*--- Calendar ---*/
+DIV.k2CalendarBlock
+{
+	height: 190px;
+	margin-bottom: 8px;
+}
+/*use this height value so that the calendar height won't change on Month change via ajax*/
+DIV.k2CalendarLoader
+{
+	background: #FFF url(../images/system/k2CalendarLoader.gif) no-repeat 50% 50%;
+}
+TABLE.calendar
+{
+	margin: 0 auto;
+	background: #FFF;
+	border-collapse: collapse;
+}
+TABLE.calendar TR TD
+{
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+	border: 1px solid #F4F4F4;
+	background: #FFF;
+}
+TABLE.calendar TR TD.calendarNavMonthPrev
+{
+	background: #F3F3F3;
+	text-align: left;
+}
+TABLE.calendar TR TD.calendarNavMonthPrev A
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+TABLE.calendar TR TD.calendarNavMonthPrev A:hover
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+TABLE.calendar TR TD.calendarCurrentMonth
+{
+	background: #F3F3F3;
+}
+TABLE.calendar TR TD.calendarNavMonthNext
+{
+	background: #F3F3F3;
+	text-align: right;
+}
+TABLE.calendar TR TD.calendarNavMonthNext A
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+TABLE.calendar TR TD.calendarNavMonthNext A:hover
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+TABLE.calendar TR TD.calendarDayName
+{
+	background: #E9E9E9;
+	font-size: 11px;
+	width: 14.2%;
+}
+TABLE.calendar TR TD.calendarDateEmpty
+{
+	background: #FBFBFB;
+}
+TABLE.calendar TR TD.calendarDate
+{
+}
+TABLE.calendar TR TD.calendarDateLinked
+{
+	padding: 0;
+}
+TABLE.calendar TR TD.calendarDateLinked A
+{
+	display: block;
+	padding: 2px;
+	text-decoration: none;
+	background: #EEE;
+}
+TABLE.calendar TR TD.calendarDateLinked A:hover
+{
+	display: block;
+	background: #135CAE;
+	color: #FFF;
+	padding: 2px;
+	text-decoration: none;
+}
+TABLE.calendar TR TD.calendarToday
+{
+	background: #135CAE;
+	color: #FFF;
+}
+TABLE.calendar TR TD.calendarTodayLinked
+{
+	background: #135CAE;
+	color: #FFF;
+	padding: 0;
+}
+TABLE.calendar TR TD.calendarTodayLinked A
+{
+	display: block;
+	padding: 2px;
+	color: #FFF;
+	text-decoration: none;
+}
+TABLE.calendar TR TD.calendarTodayLinked A:hover
+{
+	display: block;
+	background: #BFD9FF;
+	padding: 2px;
+	text-decoration: none;
+}
+/*--- Category Tree Select Box ---*/
+DIV.k2CategorySelectBlock
+{
+}
+DIV.k2CategorySelectBlock FORM SELECT
+{
+	width: auto;
+}
+DIV.k2CategorySelectBlock FORM SELECT OPTION
+{
+}
+/*--- Category List/Menu ---*/
+DIV.k2CategoriesListBlock
+{
+}
+DIV.k2CategoriesListBlock UL
+{
+}
+DIV.k2CategoriesListBlock UL LI
+{
+}
+DIV.k2CategoriesListBlock UL LI A
+{
+}
+DIV.k2CategoriesListBlock UL LI A:hover
+{
+}
+DIV.k2CategoriesListBlock UL LI A SPAN
+{
+}
+DIV.k2CategoriesListBlock UL LI A:hover SPAN
+{
+}
+DIV.k2CategoriesListBlock UL LI.activeCategory
+{
+}
+DIV.k2CategoriesListBlock UL LI.activeCategory A
+{
+	font-weight: bold;
+}
+/*Root level (0)*/
+UL.level0
+{
+}
+UL.level0 LI
+{
+}
+UL.level0 LI A
+{
+}
+UL.level0 LI A:hover
+{
+}
+UL.level0 LI A SPAN
+{
+}
+UL.level0 LI A:hover SPAN
+{
+}
+/*First level (1)*/
+UL.level1
+{
+}
+UL.level1 LI
+{
+}
+UL.level1 LI A
+{
+}
+UL.level1 LI A:hover
+{
+}
+UL.level1 LI A SPAN
+{
+}
+UL.level1 LI A:hover SPAN
+{
+}
+/*n level (n) - like the above...*/
+/*--- Search Box ---*/
+DIV.k2SearchBlock
+{
+}
+DIV.k2SearchBlock FORM
+{
+}
+DIV.k2SearchBlock FORM INPUT.inputbox
+{
+}
+DIV.k2SearchBlock FORM INPUT.button
+{
+}
+/*--- Tag Cloud ---*/
+DIV.k2TagCloudBlock
+{
+	padding: 8px 0;
+}
+DIV.k2TagCloudBlock A
+{
+	padding: 4px;
+	float: left;
+	display: block;
+}
+DIV.k2TagCloudBlock A:hover
+{
+	padding: 4px;
+	float: left;
+	display: block;
+	background: #135CAE;
+	color: #FFF;
+	text-decoration: none;
+}
+/*--- Google Search ---*/
+#k2Container DIV.gsc-branding-text
+{
+	text-align: right;
+}
+#k2Container DIV.gsc-control
+{
+	width: 100%;
+}
+#k2Container DIV.gs-visibleUrl
+{
+	display: none;
+}
+/*----------------------------------------------------------------------*/
+/*Modules: mod_k2_users*/
+/*----------------------------------------------------------------------*/
+DIV.k2UsersBlock
+{
+}
+DIV.k2UsersBlock UL
+{
+}
+DIV.k2UsersBlock UL LI
+{
+}
+DIV.k2UsersBlock UL LI.lastItem
+{
+}
+DIV.k2UsersBlock UL LI A.ubUserAvatar IMG
+{
+}
+DIV.k2UsersBlock UL LI A.ubUserName
+{
+}
+DIV.k2UsersBlock UL LI A.ubUserName:hover
+{
+}
+DIV.k2UsersBlock UL LI DIV.ubUserDescription
+{
+}
+DIV.k2UsersBlock UL LI DIV.ubUserAdditionalInfo
+{
+}
+A.ubUserFeedIcon, A.ubUserFeedIcon:hover
+{
+	display: inline-block;
+	margin: 0 2px 0 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: url(../images/fugue/feed.png) no-repeat 50% 50%;
+}
+A.ubUserFeedIcon SPAN, A.ubUserFeedIcon:hover SPAN
+{
+	display: none;
+}
+A.ubUserURL, A.ubUserURL:hover
+{
+	display: inline-block;
+	margin: 0 2px 0 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: url(../images/fugue/globe.png) no-repeat 50% 50%;
+}
+A.ubUserURL SPAN, A.ubUserURL:hover SPAN
+{
+	display: none;
+}
+SPAN.ubUserEmail
+{
+	display: inline-block;
+	margin: 0 2px 0 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: url(../images/fugue/mail.png) no-repeat 50% 50%;
+	overflow: hidden;
+}
+SPAN.ubUserEmail A
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	text-indent: -9999px;
+}
+DIV.k2UsersBlock UL LI H3
+{
+	clear: both;
+	margin: 8px 0 0;
+	padding: 0;
+}
+DIV.k2UsersBlock UL LI UL.ubUserItems
+{
+}
+DIV.k2UsersBlock UL LI UL.ubUserItems LI
+{
+}
+/*--- END ---*/

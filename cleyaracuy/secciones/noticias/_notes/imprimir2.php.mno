@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_impnoticias" value="name:idnoticia;datatype:int,name:fechapub;datatype:date,name:tiempodepub;datatype:int,name:prioridad;datatype:int,name:emisor;datatype:string,name:imagen;datatype:string,name:titulo;datatype:string,name:descripcion;datatype:string,name:contenido;datatype:string,name:tipo;datatype:int" />
+	<infoitem key="UD_DetailRS1" value="name:idnoticia;datatype:int,name:fechapub;datatype:date,name:tiempodepub;datatype:int,name:prioridad;datatype:int,name:emisor;datatype:string,name:imagen;datatype:string,name:titulo;datatype:string,name:descripcion;datatype:string,name:contenido;datatype:string,name:tipo;datatype:int" />
+	<infoitem key="UD_LiveData_params" value="1" />
+	<infoitem key="UD_LiveData_param0" value="recordID=1" />
+</info>

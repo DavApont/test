@@ -1,0 +1,32 @@
+a,a:hover,a:active,a:focus{outline:none !important}
+.btn{outline:none !important}
+body{background-color:#dadada}
+#wrap>.container{background-color:#f3f3f3}
+.content{padding-top:15px}
+.col-navbar{margin-left:0;padding-left:0;margin-right:0;padding-right:0}
+.navbar{border-radius:0;border-width:0;margin-bottom:0;}
+.col-menuV{margin:0 0 -1000px 0;padding:0 0 1000px 0;background:linear-gradient(to right, #3a3633 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0)}
+.menuV{overflow:hidden}.menuV .panel{border-width:0;background-color:none;border-radius:0 !important}.menuV .panel+.panel{margin-top:0}
+.menuV .panel .accordion-toggle{color:#fff}
+.menuV .panel>.panel-heading{display:inline-block;width:100%}.menuV .panel>.panel-heading.collapsed:before{content:"+";display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:400;line-height:1;position:relative;top:1px;float:right}
+.menuV .panel>.panel-heading:before{content:"−";display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:400;line-height:1;position:relative;top:1px;float:right}
+.menuV .list-group{margin:0}
+.menuV .itemMenuV{border-radius:0 !important;background:linear-gradient(to right, #3a3633 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0);color:#fff;border-width:0;border-bottom:1px solid #222 !important;box-shadow:0 0 1px 0 #e0e0e0 !important;margin-bottom:1px !important;-webkit-transition:all .3s;transition:all .3s}.menuV .itemMenuV:hover,.menuV .itemMenuV:active{text-decoration:none;background:linear-gradient(to right, #2c2927 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0);color:#fff;padding-left:8%}
+.menuV .itemMenuV:focus{text-decoration:none}
+.menuV .itemMenuV.active,.menuV .itemMenuV.active:hover{text-decoration:none;background:linear-gradient(to right, #1f1d1b 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0);color:#fff}
+.menuV .panel-collapse .itemMenuV{border-radius:0 !important;background:linear-gradient(to right, #554f4b 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0);color:#fff;border-width:0;padding-left:7%;border-bottom:0 !important;box-shadow:none !important;margin-bottom:0 !important;-webkit-transition:all .3s;transition:all .3s}.menuV .panel-collapse .itemMenuV:hover,.menuV .panel-collapse .itemMenuV:active{text-decoration:none;background:linear-gradient(to right, #48433f 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0);color:#fff !important;padding-left:10%}
+.menuV .panel-collapse .itemMenuV:focus{text-decoration:none}
+.menuV .panel-collapse .itemMenuV.active,.menuV .panel-collapse .itemMenuV.active:hover{text-decoration:none;background:linear-gradient(to right, #3a3633 96%, #2a2725 100%) repeat scroll 0 0 rgba(0,0,0,0);color:#fff}
+.menuV .badge{background-color:#fff !important;color:#3a3633 !important}
+.breadcrumb{margin:0 -15px;background-color:#635c57;border-radius:0}.breadcrumb li.active{color:#fff}
+.breadcrumb li a{color:#d9d9d9}
+.panel{border-radius:0}.panel .panel-heading{border-radius:0}
+.panel .panel-body{border-radius:0}
+.panel .panel-footer{border-radius:0}
+.panel-content-1{border:1px solid #ccc !important}
+.form-control{border-radius:0}
+.form-horizontal .has-feedback-left{padding-top:3px;padding-bottom:3px}.form-horizontal .has-feedback-left .form-control{padding-left:40px;padding-right:inherit}
+.form-horizontal .has-feedback-left .form-control-feedback{left:15px;top:0;right:auto;color:#a2a2a2;border-right:1px solid #ccc}
+.form-horizontal .has-feedback-right{padding-top:3px;padding-bottom:3px}.form-horizontal .has-feedback-right .form-control{padding-right:40px;padding-left:inherit}
+.form-horizontal .has-feedback-right .form-control-feedback{right:15px;top:0;left:auto;color:#a2a2a2;border-left:1px solid #ccc}
+.form-horizontal textarea~.form-control-feedback{border-bottom:1px solid #ccc}

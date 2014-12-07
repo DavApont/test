@@ -1,0 +1,218 @@
+/*Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license)*/
+/**/
+/** Base Style Sheet - Reduces inconsistencies across all browsers*/
+/** Stripped down and improved collection of best practises*/
+/** To avoid redundant code it sets new default values instead of baseline defaults and re-resetting them later*/
+/** Thanks to HTML5 Boilerplate, Yahoo! User Interface (YUI) Library, No CSS Reset*/
+/* */
+/*Useful Snippets*/
+/*----------------------------------------------------------------------------------------------------*/
+/*Force vertical scrollbar in non-IE + force height of the body element to fit at least the browser window*/
+HTML
+{
+	overflow-y: scroll;
+	min-height: 100%;
+}
+/*Create a stacking context to prevent z-index issues*/
+BODY
+{
+	position: relative;
+}
+/*Remove outline when clicking links: people.opera.com/patrickl/experiments/keyboard/test*/
+A:hover, A:active
+{
+	outline: none;
+}
+/*Removes scrollbar in IE*/
+TEXTAREA
+{
+	overflow: auto;
+}
+/*Remove background from selected images*/
+IMG::selection
+{
+	background: transparent;
+}
+IMG::-moz-selection
+{
+	background: transparent;
+}
+/*Remove borders*/
+FIELDSET, IMG, IFRAME
+{
+	border: 0;
+}
+/*Hand cursor on clickable input elements*/
+INPUT[type='button'], INPUT[type='submit'], INPUT[type='checkbox'], INPUT[type='image'], INPUT[type='radio'], INPUT[type='reset'], SELECT, BUTTON, LABEL
+{
+	cursor: pointer;
+}
+/*Render new HTML5 elements as blocks*/
+/*----------------------------------------------------------------------------------------------------*/
+ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, NAV, SECTION
+{
+	display: block;
+}
+/*New Base Values*/
+/*----------------------------------------------------------------------------------------------------*/
+BODY
+{
+	margin: 0;
+}
+/*Block Space*/
+P, HR, UL, OL, DL, BLOCKQUOTE, PRE, FIELDSET, FIGURE
+{
+	margin: 15px 0;
+}
+H1, H2, H3, H4, H5, H6
+{
+	margin: 15px 0;
+}
+/*Lists*/
+UL, OL, DL
+{
+	padding-left: 30px;
+}
+DD
+{
+	margin-left: 40px;
+}
+/*Headings*/
+H1, H2, H3, H4, H5, H6
+{
+	font-weight: normal;
+}
+H1
+{
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: bold;
+}
+H2
+{
+	font-size: 24px;
+	line-height: 24px;
+}
+H3
+{
+	font-size: 18px;
+	line-height: 18px;
+}
+H4, H5, H6
+{
+	font-size: 16px;
+	line-height: 16px;
+}
+/*Links*/
+A, A:hover
+{
+	text-decoration: none;
+}
+/*Text-level Semantics*/
+SMALL
+{
+	font-size: 11px;
+}
+INS
+{
+	text-decoration: none;
+}
+DEL
+{
+	text-decoration: line-through;
+}
+ABBR[title], DFN[title]
+{
+	border-bottom: 1px dotted #000000;
+	cursor: help;
+}
+DFN[title]
+{
+	font-style: normal;
+}
+/*Horizontal Rule*/
+HR
+{
+	display: block;
+	height: 1px;
+	padding: 0;
+	border: 0;
+	border-top: 1px solid #000000;
+}
+/*Quotes*/
+Q, BLOCKQUOTE
+{
+	quotes: '\201C' '\201D' '\2018' '\2019';
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+BLOCKQUOTE
+{
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 22px;
+}
+BLOCKQUOTE:before
+{
+	content: '\201C';
+}
+BLOCKQUOTE:after
+{
+	content: '\201D';
+}
+/*Code*/
+CODE, PRE
+{
+	font-family: "Courier New", Courier, monospace;
+}
+CODE
+{
+	word-spacing: -2px;
+}
+PRE
+{
+	padding: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	white-space: pre-wrap;
+}
+/*Tables*/
+TABLE
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+TH, TD
+{
+	padding: 1px;
+}
+/*Forms*/
+INPUT, SELECT
+{
+	vertical-align: middle;
+}
+SELECT, INPUT, TEXTAREA, BUTTON
+{
+	font: 12px Arial, sans-serif;
+}
+FORM, TEXTAREA
+{
+	margin: 0;
+}
+LEGEND, FIELDSET, INPUT
+{
+	padding: 0;
+}
+TEXTAREA, INPUT[type='text'], INPUT[type='password'], SELECT
+{
+	padding: 2px;
+}
+SELECT
+{
+	line-height: 19px;
+}
+/*Needed for Safari*/
+BUTTON, INPUT[type='button'], INPUT[type='submit']
+{
+	padding: 2px 3px;
+}

@@ -1,0 +1,181 @@
+/*** 
+Autor: David Aponte
+Fecha: 2011-12
+Web: Www.WebAir.Es
+Compañia: YaraSoft, C.A
+***/
+/*********************************************************************
+ * Form
+ *********************************************************************/
+ 
+.textbox {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#FFFFFF;
+	width: 160px;	
+	height: 15px;
+	color: #333333;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+}
+
+.textedad {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#FFFFFF;
+	width: 50px;	
+	height: 15px;
+	color: #333333;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+}
+.textdire {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#FFFFFF;
+	width: 220px;	
+	height: 15px;
+	color: #333333;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+}
+.select {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#FFFFFF;
+	width: 174px;	
+	height: 30px;
+	color: #333333;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+}
+
+.select_hora {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#FFFFFF;
+	width: 58px;	
+	height: 30px;
+	color: #333333;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+}
+
+.textarea {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#FFFFFF;
+	width: 200px;	
+	height: 100px;
+	color: #333333;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+}
+/*********************************************************************
+ * Formato
+ *********************************************************************/
+#contenedor{
+	margin-right:auto;
+	margin-left:auto;
+	margin:auto;
+	width:960px;
+	background-image:url(temas/images/bg.jpg);
+	}
+#cabezera{
+	height:210px;
+	background-image:url(temas/images/bg_up.jpg);
+	background-repeat:no-repeat;
+		}
+#menu{
+	height:30px;
+	color:#666666;
+	font-family: "calibri";
+	font-size: 18px;
+}
+
+#contenido{
+	margin-left:30px;
+	}
+#pie{
+	height:45px;
+	background-image:url(temas/images/bg_ft.jpg);
+	background-repeat:no-repeat;
+	}
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px; 
+	width: 100%;
+	heigth: 100%;
+
+}
+.texto {
+   color:#666666;
+   font-family: "calibri";
+   font-size: 14px;
+   margin: 8px;
+   left: 30px;
+}
+
+.tex-form {
+   color:#666666;
+   font-family: "calibri";
+   font-size: 14px;
+   text-align:left;
+   margin:12px;
+}
+p{	color:#666666;
+    font-family: "calibri";
+    font-size: 14px;
+    margin: 8px;
+    text-align:justify;
+}
+h3 {
+   color:#035086;
+   font-family: "calibri";
+   font-size: 16px;
+   text-align:justify;
+  	background-image:url(temas/images/bg_tab.jpg);
+	padding:5px 20px;
+	margin-left:-20px;
+	*margin-left:-20px;
+	margin-top:0;
+	position:relative;
+	width:80%;
+	text-align:left;
+	box-shadow:1px 1px 5px #999;
+	border:none;
+	}
+
+
+h2 {
+   color:#F6C;
+   font-family: "calibri";
+   font-weight: bold;
+   text-align:justify;
+   width:601px;
+   margin-left:30px;
+}

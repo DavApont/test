@@ -1,0 +1,399 @@
+/*- Menu --------------------------- */
+ 
+    #tabsF {
+      float:left;
+	  margin:0 auto 0 auto;
+	  text-align:center;
+      width:100%;
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:1px solid #666;
+      }
+    #tabsF ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+      }
+    #tabsF li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsF a {
+      float:left;
+      background:url(../images/tableftF.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsF a span {
+      float:left;
+      display:block;
+      background:url(../images/tabrightF.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsF a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsF a:hover span {
+      color:#FFF;
+      }
+    #tabsF a:hover {
+      background-position:0% -42px;
+      }
+    #tabsF a:hover span {
+      background-position:100% -42px;
+      }
+/*- Menu Fin--------------------------- */
+.texto {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal}
+.texto_fecha {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal}
+.negrita {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold;}
+.titulo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none;}
+.titulo_home {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #009999; text-decoration: none;}
+.titulo_teeduca {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold; color: #009999; text-decoration: none;}
+
+
+.titulo_home A {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #009999; text-decoration: none;}
+.titulo_home A:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #009999; text-decoration: none;}
+
+
+
+.titulo_comercial {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #ff9900; text-decoration: none;}
+.titulo_comercial_home {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #ff9900; text-decoration: none;}
+.titulo_interno {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #666666; text-decoration: none;}
+
+.titulo_interno_temp {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #ff9900; text-decoration: none;}
+
+.titulo_interno_sub {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #ff9900; text-decoration: underline;}
+
+.titulo_interno_azul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #000099; text-decoration: none;}
+.blanco{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1px;}	
+.titulo_interno A {COLOR: #000000; TEXT-DECORATION: none}
+.titulo_interno A:hover {COLOR: #000000; TEXT-DECORATION: none}
+.oficina {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold; color: #666666; text-decoration: none;}
+.subtitulo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: bold; color: #000000}
+.home {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: bold; font-weight: bold; color: #666666}
+.titulocajitas {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #666666; TEXT-DECORATION: none}
+.titulocajitas_interno {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #ffffff}
+.interno_titulos { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #ff9900}
+.interno_background { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #ff9900; background-color: #ff9900;}
+.tituloblanco {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: bold; color: #ffffff}
+.select {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; width: 115px}
+
+.a {
+	COLOR: #333333;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	}
+	.a A { COLOR: #000000 } 	
+	.a A:hover { COLOR: #333333 }
+	.a A:visited { COLOR: #333333 }
+	
+.a_home {
+	COLOR: #333333;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	TEXT-DECORATION: none;	
+	}
+	.a_home A { COLOR: #000000; TEXT-DECORATION: none;	
+	} 	
+	.a_home A:hover {  COLOR: #000000;
+	font-weight:bold;}
+	.a_home A:visited { COLOR: #000000;
+	}
+
+.negrita_link_home {
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	TEXT-DECORATION: none;	
+	}
+	.negrita_link_home A { COLOR: #000000; TEXT-DECORATION: none;	
+	} 	
+	.negrita_link_home A:hover {  COLOR: #000000; TEXT-DECORATION: none;	
+	}
+	.negrita_link_home A:visited { COLOR: #000000;
+	}
+
+.titulo_interno_azul_home {
+	COLOR: #000099;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	FONT-STYLE: normal; 
+	TEXT-DECORATION: none;	
+	}
+	.titulo_interno_azul_home A { COLOR: #000099; TEXT-DECORATION: none;	
+	} 	
+	.titulo_interno_azul_home A:hover {  COLOR: #0000CC; TEXT-DECORATION: none;	
+	}
+	.titulo_interno_azul_home A:visited { COLOR: #000099;
+	}
+
+.g {
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	}
+	.g A { COLOR: #000000;
+	font-weight:bold;} 	
+	.g A:hover { COLOR: #000000;
+	font-weight:bold;}
+	.g A:visited { COLOR: #000000;
+	font-weight:bold;}	
+
+.g_home {
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	TEXT-DECORATION: none;
+	}
+	.g_home A { COLOR: #000000 ;  TEXT-DECORATION: none;
+	font-weight:bold;} 	
+	.g_home A:hover { COLOR: #000000;
+	font-weight:bold;}
+	.g_home A:visited { COLOR: #000000;
+	font-weight:bold;}	
+	
+
+	
+.b {
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9px;
+	}
+	.b A { COLOR: #000; TEXT-DECORATION: none } 	
+	.b A:hover { COLOR: #000; TEXT-DECORATION: none }
+	
+.n {
+	COLOR: #ff9900;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	
+	}
+	.n A { COLOR: #ff9900; TEXT-DECORATION: none } 	
+	.n A:hover { COLOR: #000000; TEXT-DECORATION: none }
+	
+
+.link_naranja {
+	COLOR: #ff9900;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none ;
+	FONT-SIZE: 11px;
+	
+	}
+	.link_naranja A { COLOR: #ff9900; TEXT-DECORATION: none } 	
+	.link_naranja A:hover { COLOR: #000000; TEXT-DECORATION: none }
+	
+.link_negritas {
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none ;
+	font-size: 10px;
+	
+	}
+	.link_negritas A { COLOR: #000000; TEXT-DECORATION: none } 	
+	.link_negritas A:hover { COLOR: #000000; TEXT-DECORATION: none }
+	
+.link_azul{
+	COLOR: #000099;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none ;
+	font-size: 11px;
+	
+	}
+	.link_azul A { COLOR: #000099; TEXT-DECORATION: none } 	
+	.link_azul A:hover { COLOR: #000099; TEXT-DECORATION: none }
+		
+	
+.w {
+	COLOR: #333333;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	TEXT-DECORATION: none;
+	}
+	.w A { COLOR: #000000 } 	
+	.w A:hover { COLOR: #333333; text-decoration:underline}
+	.w A:visited { COLOR: #333333;TEXT-DECORATION: none }
+		
+.b1 {
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8px;
+	}
+	.b1 A { COLOR: #666666; TEXT-DECORATION: none } 	
+	.b1 A:hover { COLOR: #000000; TEXT-DECORATION: none }
+.c {
+	COLOR: #A0A0A0;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	}
+	.c A { COLOR: #A0A0A0; TEXT-DECORATION: none } 
+	.c A:hover { COLOR: #A0A0A0; TEXT-DECORATION: none }	
+	
+.d {
+	COLOR: #666666;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	}
+	.d A { COLOR: #666666; TEXT-DECORATION: none } 	
+	.d A:hover { COLOR: #666666; TEXT-DECORATION: none }	
+	
+
+.f{
+	COLOR: #000000;
+	FONT-FAMILY : Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	FONT-SIZE: 9px;
+	text-decoration:none;
+	}
+	.f A { COLOR: #666666; TEXT-DECORATION: none } 	
+	.f A:hover { COLOR: #000000; TEXT-DECORATION: none }
+
+
+/* Default Style */
+div.domMenu_menuBar {
+    border: solid #666666;  
+    border-width: 1px 1px 0px 1px;
+}
+div.domMenu_menuElement {
+    font-family: Arial, sans-serif; 
+    font-size: 10px;
+    border: solid #666666;  
+    border-width: 0px 1px 0 0;
+    background-color: #FFFFFF; 
+    color: #666666;
+    text-align: center;
+    padding: 0px;
+}
+div.domMenu_menuElementHover {
+   background-color: #FFCC00;
+   color: #666666;
+}
+div.domMenu_subMenuBar {
+    border: solid #666666;  
+    border-width: 1px 1px 1px 1px;
+}
+div.domMenu_subMenuElement {
+    font-family: Arial, sans-serif; 
+    font-size: 10px;
+    background-color: #FFFFFF; 
+    color: #666666;
+    padding: 2px;
+}
+div.domMenu_subMenuElementHeading {
+    font-weight: normal;
+}
+div.domMenu_subMenuElementHover {
+    background-color: #FFCC00;
+    color: #666666;
+}
+/* Keramik Style */
+div.keramik_menuBar {
+    padding: 2px 4px 0 4px;
+}
+div.keramik_subMenuBar {
+    background: url(keramik_gradient_h.gif) repeat-y;
+    border: 1px solid;
+    border-color: #FFFFFF #535352 #535352 #FFFFFF;
+}
+div.keramik_menuElement, div.keramik_subMenuElement {
+    border: 0;
+    color: #535352;
+    font-family: serif; 
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    padding: 3px 5px;
+}
+div.keramik_subMenuElement {
+    padding: 3px 3px 3px 13px;
+}
+div.keramik_menuElementHover {
+    padding: 2px 4px;
+    border: 1px solid;
+    border-color: #535352 #FFFFFF #FFFFFF #535352;
+    background-color: #FFFFFF;
+}
+div.keramik_subMenuElementHover {
+    padding: 2px 2px 2px 12px;
+    border: 1px solid;
+    border-color: #82A0C2;
+    background: url(keramik_bubble.gif) repeat-x;
+}
+/* BrainJar Style */
+div.BJ_menuBar, div.BJ_menuElement,
+div.BJ_subMenuBar, div.BJ_subMenuElement {
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    text-align: left;
+}
+div.BJ_menuBar,
+div.BJ_subMenuBar {
+    background-color: #c09070;
+    border: 2px solid;
+    border-color: #e0b090 #906040 #906040 #e0b090;
+}
+div.BJ_menuBar {
+    padding: 1px 4px;
+}
+div.BJ_menuElement {
+    border: 1px solid #c09070;
+    padding: 2px 6px 2px 6px;
+    font-weight: bold;
+}
+div.BJ_subMenuElement {
+    padding: 2px 6px 2px 6px;
+    margin: 0 1px 1px 0;
+}
+div.BJ_subMenuElementHover {
+    background-color: #906040;
+    color: #FFFFFF;
+}
+div.BJ_menuElementHover {
+    border-color: #e0b090 #906040 #906040 #e0b090;
+}
+div.BJ_menuElementActive {
+    background-color: #906040;
+    color: #FFFFFF;
+    border-color: #906040 #e0b090 #e0b090 #906040;
+}
+div.hr {
+    border-top: 1px solid #906040;
+    border-bottom: 1px solid #e0b090;
+}
+.Estilo1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.Estilo2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #003473; }
+
+.Estilo3 {color: #003473}
+
+	.link_azul {color: #003473;
+	font-size:10px;
+	font-weight:normal;}
+.link_azul A { COLOR: #000000 } 	
+	.link_azul A:hover { COLOR: #333333; text-decoration:underline}
+	.link_azul A:visited { COLOR: #333333;TEXT-DECORATION: none }
+
+		
+
+
+.Estilo4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #003473; font-weight: bold; }

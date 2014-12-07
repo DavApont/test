@@ -1,0 +1,92 @@
+<img style="vertical-align: middle;" height="25" width="25" alt="Demo Icon" src="03_icon.png" />
+<img class="float-right" src="Eventos.PNG" border="0" alt="Demo Image" width="253" height="188" />
+
+
+<div class="tweet"></div>
+
+
+#Tweetter
+<section class="wk-twitter wk-twitter-list">
+
+		<article>
+		
+				<a class="image" href="http://twitter.com/tiendasdaka">
+			<img src="http://a0.twimg.com/profile_images/2656009502/a8849ee4a189330df8203d818037ce6c_normal.jpeg" width="48" height="48" alt="TIENDAS DAKA"/>
+		</a>
+			
+		<p class="content">DAKA es la Zona!</p>
+	
+		
+	</article>
+		<article>
+		
+				<a class="image" href="http://twitter.com/tiendasdaka">
+			<img src="http://a0.twimg.com/profile_images/2656009502/a8849ee4a189330df8203d818037ce6c_normal.jpeg" width="48" height="48" alt="TIENDAS DAKA"/>
+		</a>
+			
+		<p class="content">Recuerden visitar la Zona de las Mejores Marcas del Mundo !!! En Punto Fijo, Valencia y Caracas !!!</p>
+	
+		
+	</article>
+		<article>
+		
+				<a class="image" href="http://twitter.com/tiendasdaka">
+			<img src="http://a0.twimg.com/profile_images/2656009502/a8849ee4a189330df8203d818037ce6c_normal.jpeg" width="48" height="48" alt="TIENDAS DAKA"/>
+		</a>
+			
+		<p class="content">Buenos días amigos seguidores tengan todos feliz Miércoles!!!</p>
+	
+		
+	</article>
+		<article>
+		
+				<a class="image" href="http://twitter.com/tiendasdaka">
+			<img src="http://a0.twimg.com/profile_images/2656009502/a8849ee4a189330df8203d818037ce6c_normal.jpeg" width="48" height="48" alt="TIENDAS DAKA"/>
+		</a>
+			
+		<p class="content">Aquí tienen las diferencias entre Plasma, LCD y LED <a href="http://t.co/LOhU7o4p">http://t.co/LOhU7o4p</a></p>
+	
+		
+	</article>
+	
+</section>
+
+
+
+# TABS
+
+
+    <div>
+	
+		<ul class="nav nav-150 clearfix">
+									<li>
+				<span> <a href="#tabs-1">Eventos</a></span>
+			</li>
+									<li>
+				<span> <a href="#tabs-2">Sociales</a></span>
+			</li>
+									<li>
+				<span> <a href="#tabs-3">Toques</a></span>
+			</li>
+									<li>
+				<span> <a href="#tabs-4">Otros</a></span>
+			</li>
+					</ul>
+		
+		<div class="slides-container"><ul class="slides"><li><article class="wk-content clearfix">
+        <div class="frontpagelist" id="tabs-1">
+<h2 class="remove-margin-t">Eventos</h2>
+<p class="remove-margin-b">Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! </p>
+</div></article></li><li><article class="wk-content clearfix"><div class="frontpagelist" id="tabs-2">
+<h2 class="remove-margin-t">Sociales</h2>
+<p class="remove-margin-b">Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ </p>
+</div></article></li><li><article class="wk-content clearfix"><div class="frontpagelist" id="tabs-3">
+<h2 class="remove-margin-t">Toques</h2>
+<p class="remove-margin-b">Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ </p>
+</div></article></li><li><article class="wk-content clearfix"><div class="frontpagelist" id="tabs-4">
+<h2 class="remove-margin-t">otros</h2>
+<p class="remove-margin-b">Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ Un Contenido Aqui ! -/ </p>
+</div></article></li></ul></div>
+		
+	</div>
+</div>

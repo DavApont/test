@@ -1,0 +1,9 @@
+<script type="text/javascript" language="javascript">
+function cambiarTituloPagina(){
+	document.title = "CLEY - Comisiones - Comisi\xf3n Permanente de Agr\xedcola, Ambiente y Asuntos Vecinales";
+}
+cambiarTituloPagina();
+</script>
+
+<h1>Comisi&oacute;n Permanente de Agr&iacute;cola, Ambiente y Asuntos Vecinales</h1>
+<p><strong>ART&Iacute;CULO 154.</strong>  La Comisi&oacute;n Permanente de Asuntos Agr&iacute;colas, Ambiente y Asuntos Vecinales, conocer&aacute; de las actividades del sector agr&iacute;cola, de los asuntos relativos a la tenencia de la tierra, cr&eacute;ditos, vivienda rural, asistencia t&eacute;cnica, asistencia social y servicios p&uacute;blicos; prestar&aacute; especial atenci&oacute;n a los peque&ntilde;os agricultores no reformados y procurar&aacute; las diligencias necesarias para resolver los problemas planteados, notificando a las autoridades Estatales y estadales las faltas observadas en su aplicaci&oacute;n y, en general, todo lo concerniente al desarrollo eficaz del proceso de Reforma Agraria. Conocer&aacute; tambi&eacute;n de las actividades relativas al mejoramiento de la calidad del ambiente y de los Recursos Naturales; la elaboraci&oacute;n y ejecuci&oacute;n de los programas de conservaci&oacute;n, defensa, mejoramiento, regulaci&oacute;n, aprovechamiento y usos de agua, bosques, minerales y suelos, as&iacute; como lo concerniente a la fauna y la flora del Estado.   Esta Comisi&oacute;n Permanente tambi&eacute;n conocer&aacute; de las actividades demandadas de las comunidades organizadas, as&iacute; como la promoci&oacute;n de la participaci&oacute;n vecinal, tendiente al mejoramiento de la calidad de vida del venezolano.</p>

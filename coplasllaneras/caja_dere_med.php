@@ -1,0 +1,1 @@
+<?php include 'encuesta/encuestas.php'; ?>

@@ -1,0 +1,22 @@
+.tablerouded {
+-moz-border-radius: 15px;
+background-color : #0CF;
+border : 0px solid #000;
+font-family : Arial, Verdana, Helvetica, sans-serif;
+font-size : 12px;
+padding-left : 15px;
+padding-right : 15px;
+}  
+# </style>  
+#form1 table tr td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+.caja {
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#form1 table tr td strong .titulo {
+		font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+}

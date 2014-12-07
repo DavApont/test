@@ -1,0 +1,9 @@
+body {
+	font-family: 'Exo', sans-serif;
+	background: url('../images/bg.jpg');
+}
+.bg {
+	
+	display:block;
+	text-align:center;
+}

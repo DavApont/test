@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<configuration date="2014/07/15" author="e.World Technology Ltd.">
+<project id="{60AE2B87-301E-43E0-8C2D-3843D85B46D8}" file="C:\Users\NELLYMAR\Desktop\project1.pmp" name="project1" product="PHPMaker" version="10.0" datetime="2014/07/15 10:07:58" languagefolder="phplang" userlevel="">
+<table id="departamento" name="departamento" caption="departamento" userlevel="" priv="1"/>
+<table id="detalle_pedido" name="detalle_pedido" caption="detalle pedido" userlevel="" priv="1"/>
+<table id="detalle_venta" name="detalle_venta" caption="detalle venta" userlevel="" priv="1"/>
+<table id="pedido" name="pedido" caption="pedido" userlevel="" priv="1"/>
+<table id="producto" name="producto" caption="producto" userlevel="" priv="1"/>
+<table id="proveedor" name="proveedor" caption="proveedor" userlevel="" priv="1"/>
+<table id="usuarios" name="usuarios" caption="usuarios" userlevel="" priv="1"/>
+<table id="venta" name="venta" caption="venta" userlevel="" priv="1"/>
+<table id="view1" name="view1" caption="view 1" userlevel="" priv="1"/>
+<table id="Report1" name="Report1" caption="Report 1" userlevel="" priv="1"/>
+<table id="view2" name="view2" caption="view 2" userlevel="" priv="1"/>
+</project></configuration>

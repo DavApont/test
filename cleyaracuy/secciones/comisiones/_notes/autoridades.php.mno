@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_autoridades" value="name:id_com;datatype:int,name:idpredte_com_dip;datatype:int,name:idvpredte_com_dip;datatype:int,name:idmiembro_com_dip;datatype:int,name:correo_com;datatype:string,name:nombre_com;datatype:string,name:id_dip;datatype:int,name:nomb_dip;datatype:string,name:ci_dip;datatype:string,name:correo_dip;datatype:string,name:tlf_dip;datatype:string,name:id_cargo_dip;datatype:string,name:foto_dip;datatype:string,name:id_sup_dip;datatype:string" />
+</info>

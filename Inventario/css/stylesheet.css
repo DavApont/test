@@ -1,0 +1,398 @@
+/* This stylesheet is a combination of all previous stylesheets.
+   We have decided to maintain only one stylesheet so all new styles
+   need to be placed here.
+*/
+
+/* ***************************
+    originally from test1.css
+   *************************** */
+
+/* Style used for framecontents.wm */
+
+        .toolwin {
+	         background-color: #ffffff;
+	         }
+
+	.mainmenu {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: normal;
+		color: #000000;
+		text-decoration: none;
+		}
+
+	.mainmenuInverse {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: normal;
+		color: #000000;
+		text-decoration: none;
+		background-color: #cfcfcf;
+		}
+
+	.mainmenu a:link {color: #000000; text-decoration: none;}
+	.mainmenu a:visited {color: #000000; text-decoration: none;}
+	.mainmenu a:active {color: #000000; text-decoration: none;}
+	.mainmenu a:hover {color: #000000; text-decoration: underline;}
+
+	.mainmenuInverse a:link {color: #000000; background-color: #cfcfcf; text-decoration: none;}
+	.mainmenuInverse a:visited {color: #000000; background-color: #cfcfcf; text-decoration: none;}
+	.mainmenuInverse a:active {color: #000000; background-color: #cfcfcf; text-decoration: none;}
+	.mainmenuInverse a:hover {color: #000000; background-color: #cfcfcf; text-decoration: underline;}
+
+/* ***************************
+    originally from test2.css
+   *************************** */
+
+.qvmodule  { background-color: #ffffff; }
+.headerborder  { background-color: #838383; }
+.qvmoduleborder  { background-color: #838383; }
+.qvmoduleheader  { background-color: #dfdfdf; }
+.tableheader {border-color: #838383;}
+
+
+.toolbar   {
+   font-size: 10pt;
+   font-weight: normal;
+   color: #000000;
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   vertical-align: middle;
+   background-color: #ffffff;
+   }
+
+.toolbar a:link {color: #000000; text-decoration: none;}
+.toolbar a:visited {color: #000000; text-decoration: none;}
+.toolbar a:active {color: #000000; text-decoration: none;}
+.toolbar a:hover {color: #000000; text-decoration: underline;}
+
+/* Welcome tab styles start */
+
+/* Welcome tab styles end */
+
+
+/* ***************************
+    originally from test3.css
+   *************************** */
+
+.READ		{font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 10pt;
+		white-space: nowrap;
+		color: #333333;}
+
+.UNREAD 	{font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-weight: bold;
+		font-size: 10pt;
+		white-space: nowrap;
+		color: #333333;}
+
+.READ_DELETED	{font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 10pt;
+		white-space: nowrap;
+		color: #333333;
+		text-decoration: line-through;}
+
+.UNREAD_DELETED	{font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-weight: bold;
+		font-size: 10pt;
+		white-space: nowrap;
+		color: #333333;
+		text-decoration: line-through;}
+
+.INVERSELINE {font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif;  color: #000000; background-color:#eeeeee;}
+.LINE {font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif;  color: #000000; background-color:#ffffff;}
+
+.msgfont   { 
+   font-size: 11px; 
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   color: #000000; 
+}
+
+.msgfont_disabled {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 11px;
+	color: #CFCFCF;
+}
+
+.msgfont a:visited {color: #000000; }
+
+.msgfont_small   { font-size: 8pt; font-family: Verdana, Arial, Helvetica, sans-serif;  color: #000000; }
+.msgfont_small   a:visited {color: #000000; }
+
+A:link { font-family: Verdana, Arial, Helvetica, sans-serif;  color: black; }
+A.UNREAD:link { font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;  color: black; }
+A.UNREAD:active { font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;   color: black; }
+A.UNREAD:visited { font-weight: normal; font-family: Verdana, Arial, Helvetica, sans-serif;   color: black; }
+
+td.READ { font-weight: normal; font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif;   color: black; }
+
+.genfont   { font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif;  vertical-align: middle; color: red; }
+
+.redfont { font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; color: red; }
+
+INPUT.check { color: #838383; margin-bottom: -5; margin-top: -5; vertical-align: middle; }
+
+.listhdr   { font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif;  color: #242424; background-color: #dfdfdf; }
+
+hr {
+    color: #838383;
+}
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 10pt;
+     }
+
+.topnav td	{
+    font-size: 10pt;
+    color: #cfcfcf;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.topnav	a {
+    font-size: 10pt;
+    color: #cfcfcf;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+/* ***************************
+    originally from test4.css
+   *************************** */
+
+.tableheader
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 12pt;
+    vertical-align : bottom;
+}
+.dayHeader
+{
+	background-color : #838383;
+	color : #FFFFFF;
+	cursor : default;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+	width : 14%;
+	height : 20px;
+	text-align : center
+}
+.dayHeaderlast
+{
+	background-color : #838383;
+	color : #FFFFFF;
+	cursor : default;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+	height : 20px;
+}
+
+.monthHeader
+{
+	background-color : #838383;
+	color : #FFFFFF;
+	cursor : default;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+	width : 8%;
+	height : 20px;
+	text-align : center
+}
+.curmonthHeader
+{
+	background-color : #dfdfdf;
+	color : #000000;
+	cursor : default;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+	width : 8%;
+	height : 20px;
+	text-align : center
+}
+.dayNotInMonth
+{
+	background-color : #dcdcdc;
+	color : #000000;
+	cursor : default;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+.smallLineBreak
+{
+	font-size : 5pt;
+}
+.dayInMonthIsToday
+{
+	background-color : #CCCCFF;
+	color : #000000;
+	cursor : default;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+.dayInMonth
+{
+	background-color : #FFFFFF;
+	color : #000000;
+	cursor : default;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+.monthLink
+{
+	background-color : #FFFFFF;
+	color : #000000;
+	cursor : default;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+.monthdayLink
+{
+  cursor : default;
+  font-weight : normal;
+  font-family : Verdana, Arial, Helvetica, sans-serif; 
+  font-size : 8pt;
+}
+
+.dayLink
+{
+	background-color : #FFFFFF;
+	color : #000000;
+	cursor : default;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 9pt;
+    vertical-align: top;
+    text-align: right;
+}
+
+a.dayHourLink
+{
+  color : #000000;
+  font-family : Verdana, Arial, Helvetica, sans-serif; 
+  font-size : 10pt;
+}
+
+.dayHourText
+{
+  color : #000000;
+  font-family : Verdana, Arial, Helvetica, sans-serif; 
+  font-size : 12pt;
+}
+
+a.dayLinkIsToday
+{
+	background-color : #dfdfdf;
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+a.dayLinkNotInMonth
+{
+	color : #999999;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+a.dayLinkInMonth
+{
+	color : #0000FF;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+
+.dayLinkHdr
+{
+	background-color : #FFFFFF;
+	color : #000000;
+	cursor : default;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+}
+
+.weekDayCaption
+{
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 10pt;
+}
+a.weekDayLink
+{
+	color : #0000FF;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 10pt;
+}
+
+.dayViewAppt
+{
+	color : #000000;
+	background-color : #eeeeee;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+    vertical-align: top;
+}
+
+.dayView
+{
+	color : #000000;
+	background-color : #eeeeee;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+    vertical-align: top;
+}
+
+.callistbkgrnd
+{
+	color : #000000;
+	background-color : #ffffff;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif; 
+	font-size : 8pt;
+    vertical-align: top;
+}
+
+.scheduleDlgRadio
+{
+	background-color : #cccccd;
+}
+
+.clickhere
+{
+        font-size: 10pt;
+        font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight : normal;
+        color: #333333;
+}
+.clickhere a:link {color: blue; text-decoration: underline;}
+.clickhere a:visited {color: blue; text-decoration: underline;}
+.clickhere a:active {color: blue; text-decoration: underline;}
+.clickhere a:hover {color: blue; text-decoration: underline;}
+
+/* button: Added to minimize blurred border for wide default 
+   buttons in Internet Explorer. This may be removed in future when
+   IE is fixed.
+*/
+.button{
+   padding:0 .45em 0 .45em;
+   width:auto;
+   overflow:visible;
+}
+
+.nowrap { white-space: nowrap; }

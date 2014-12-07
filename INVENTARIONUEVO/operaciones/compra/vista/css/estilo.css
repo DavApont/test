@@ -1,0 +1,282 @@
+/* Theme for SICCA */
+			#div1 {
+	overflow:scroll;
+	height:200px;
+	width:500px;
+}
+
+#div1 table {
+	width:300px;
+	background-color:lightgray;
+}
+			@font-face{
+				font-family:FranklinGothicMedium;
+				src: url(../fuentes/framd.ttf) format('opentype');
+			}
+			@font-face{
+				font-family:LucidaSans;
+				src: url(../fuentes/lsans.ttf) format('truetype');
+			}
+			@font-face{
+				font-family:BerlinSansNormal;
+				src: url(../fuentes/brlnsr.ttf) format('truetype');
+			}
+			@font-face{
+				font-family:BerlinSansSemi;
+				src: url(../fuentes/brlnsbd.ttf) format('truetype');
+			}
+			html, body{
+				font-family:Arial, Sans-serif;
+				margin:auto;
+				padding:0px;
+				background:rgba(200,200,200,1);
+				color:rgb(255,255,255);
+				font-size:11pt;
+			}
+
+			p{
+				font-family:Arial, Sans-serif;
+				color:rgb(255,255,255);
+				font-size:16px;
+			}
+			h1{
+				font-family:Arial, Sans-serif;
+				color:rgb(255,255,255);
+				font-size:38px;
+			}
+			.td{
+				text-align:right;
+			}
+			.button{
+				padding:3px;
+				padding-left:7px;
+				padding-right:7px;
+				font-family:Arial;
+				font-size:10pt;
+				text-shadow:2px 2px 3px rgba(0,0,0,0.2);
+				border:1px solid white;
+				border-radius:2px;
+				background:rgba(204,204,204,1);
+				box-shadow:0px 0px 0px rgba(0,0,0,0.2);
+				-webkit-box-shadow:0px 0px 0px rgba(0,0,0,0.2);
+				-moz-box-shadow:0px 0px 0px rgba(0,0,0,0.2);
+				-o-box-shadow:0px 0px 0px rgba(0,0,0,0.2);
+				transition:box-shadow 0.3s, background 0.3s, border 0.3s;
+				-webkit-transition: -webkit-box-shadow:1s, background 1s, border 1s;
+				-moz-transition: -moz-box-shadow:1s, background 1s, border 1s;
+			}
+			.button:hover{
+				box-shadow:0px 0px 5px rgba(0,0,0,1);
+				-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+				-moz-box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+				-o-box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+				background:rgba(251,251,251,0.9);
+				border:1px solid white;
+				color:rgba(0,0,0,0.9);
+			}			
+			#contenedor{
+				margin:auto;
+				width:900px;
+				height:800px;
+				
+			}
+			header{
+				background:rgba(239,130,35,1);
+				height:200px;
+				width:910px;
+			}
+			#contenido{ 
+				background:rgb(68,109,160);
+				float:left;
+				width:900px;
+				height:550px;
+			}
+			footer{
+				height:50px;
+				text-align:center;
+				font-size:10pt;
+				color:rgba(100,100,100,1);
+			}
+			#cintillo_section{
+				padding:0px;
+				width:100%;
+				text-align:center;
+				vertical-align:middle;
+				
+			}
+			#cintillo{
+				background:transparent;
+				float:left;
+				width:900px;
+				height:40px;
+				padding:0px;
+			}
+			#logotipo{
+				font-size:0px;
+				float:left;
+				position:absolute;
+				margin:0px;
+				padding:0px;
+			}
+			#tipo{
+				font-family:BerlinSansNormal;
+				position:absolute;
+				padding:0px;
+				margin:0px;
+				font-size:35pt;
+				color:rgba(255,255,255,1);
+				transform:translate(15px,98px);
+				-webkit-transform:translate(15px,98px);
+			}
+			#subtipo{
+				font-family:BerlinSansNormal;
+				font-weight:normal;
+				position:absolute;
+				padding:0px;
+				margin:0px;
+				font-size:18px;
+				color:rgba(255,255,255,1);
+				transform:translate(72px,148px);
+				-webkit-transform:translate(72px,148px);
+			}
+			#logo{
+				float:left;
+				top:43px;
+				width:50%;
+				text-align:center;
+				height:100%;
+				vertical-align:middle;
+				position:absolute;
+				padding:0px;
+				margin:0px;
+			}
+			#titulos{
+				font-size:0px;
+				float:right;
+				position:absolute;
+				margin:0px;
+				padding:0px;
+			}
+			#nombre1{
+				position:absolute;
+				padding:0px;
+				margin:0px;
+				width:250px;
+				font-size:12pt;
+				text-align:right;
+				color:rgba(255,255,255,1);
+				transform:translate(500px,55px);
+				-webkit-transform:translate(500px,55px);
+				text-shadow:0px 0px 2px rgba(255,255,255,0.3);
+			}
+			#nombre2{
+				font-family:Arial;
+				position:absolute;
+				font-weight:bold;
+				padding:0px;
+				margin:0px;
+				width:350px;
+				height:10px;
+				font-size:18pt;
+				text-align:right;
+				color:rgba(255,255,255,1);
+				transform:translate(400px,115px);
+				-webkit-transform:translate(400px,115px);
+			}
+			#formato{
+				font-family:LucidaSans;
+				position:absolute;
+				font-weight:normal;
+				padding:0px;
+				margin:0px;
+				font-size:20px;
+				text-align:right;
+				color:rgba(255,255,255,1);
+				transform:translate(240px,1px);
+				-webkit-transform:translate(240px,1px);
+
+			}
+			#logoIuty{
+				padding:15px;
+				padding-right:12px;
+				float:right;
+				width:50%;
+				text-align:right;
+				vertical-align:middle;
+			}
+			#bienvenida{
+				float:left;
+				padding:0px;
+				margin:0px;
+				width:350px;
+				height:400px;
+				color:rgba(255,255,255,1);
+				transform:translate(80px,40px);
+				-webkit-transform:translate(80px,40px);
+			}
+			#box{
+				float:left;
+				position: relative;
+				/*border:1px solid rgba(255,255,255,1);*/
+				width:300px;
+				margin:auto;
+				padding:0px;
+				top:100px;
+				left:120px;
+				/*transform:translate(160px,170px);
+				-webkit-transform:translate(160px,170px);*/
+			}
+			#login{
+				text-align:left;
+				vertical-align:middle;
+				padding:0px;
+				margin:auto;
+				margin-left:50px;
+				margin-right:50px;
+				margin-top:30px;
+
+			}
+			#sesion{
+				position:absolute;
+				padding:0px;
+				margin:0px;
+				font-size:20px;
+				color:rgba(255,255,255,1);
+				transform:translate(510px,95px);
+				-webkit-transform:translate(510px,95px);
+
+			}
+			#lineaVertical{
+				float:left;
+				border-left: 1px solid #fff;
+				height: 444px;
+				width: -2px;
+				transform:translate(110px,75px);
+				-webkit-transform:translate(110px,75px);
+			}
+			#footer{
+				float:center;
+				text-align:center;
+				vertical-align:middle;
+				padding-top:20px;
+				margin-top:20px;
+			}
+			#capaFooter{
+				float:left;
+				text-align:center;
+				width:100%;
+				padding:0px;
+				margin:0px;
+				margin-bottom:50px;
+				transform:translate(0px,10px);
+				-webkit-transform:translate(0px,10px);
+			}
+			.esquina{
+				position:absolute;
+				top:200px;
+				height:0px;
+				width:0px;
+				border-left:10px solid rgba(160,10,10,1);
+				border-right:none;
+				border-bottom:10px solid transparent;
+			}

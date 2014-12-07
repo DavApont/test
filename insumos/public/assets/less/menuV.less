@@ -1,0 +1,93 @@
+.sombraInternaMenuV(@color){
+	background: linear-gradient(to right, @color 96%, #2A2725 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.col-menuV{
+	margin: 0 0 -1000px 0;
+	padding: 0 0 1000px 0;
+	.sombraInternaMenuV(@bg-menuv-item-color);
+}
+.menuV{
+	overflow: hidden;
+	.panel{
+		+ .panel{
+			margin-top: 0px;
+		}
+		border-width: 0px;
+		background-color: none;
+		border-radius: 0px !important;
+		.accordion-toggle{
+			color: @text-menuv-item-color;
+		}
+		> .panel-heading{
+			display: inline-block;
+			width: 100%;
+			&.collapsed:before{
+				.icon("+");
+				float: right;
+			}
+			&:before{
+				.icon("−");
+				float: right;
+			}
+		}
+	}
+	.list-group{
+		margin: 0px;
+	}
+	.itemMenuV{
+		border-radius: 0px !important;
+		.sombraInternaMenuV(@bg-menuv-item-color);
+		color: @text-menuv-item-color;
+		border-width: 0px;
+		border-bottom: 1px solid #222222 !important;
+		box-shadow: 0 0 1px 0 #E0E0E0 !important;
+		margin-bottom: 1px !important;
+		.transition(all 0.3s);
+		&:hover, &:active{
+			text-decoration: none;
+			.sombraInternaMenuV(@bg-menuv-item-color-hover);
+			color: @text-menuv-item-color;
+			padding-left: 8%;
+		}
+		&:focus{
+			text-decoration: none;
+		}
+		&.active, &.active:hover {
+			text-decoration: none;
+			.sombraInternaMenuV(@bg-menuv-item-color-active);
+			color: @text-menuv-item-color;
+		}
+	}
+	.panel-collapse{
+		.itemMenuV{
+			border-radius: 0px !important;
+			//background-color: @bg-sub-menuv-item-color !important;
+			background: linear-gradient(to right, @bg-sub-menuv-item-color 96%, #2A2725 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+			color: @text-sub-menuv-item-color;
+			border-width: 0px;
+			padding-left: 7%;
+			border-bottom: 0 !important;
+			box-shadow: none !important;
+			margin-bottom: 0px !important;
+			.transition(all 0.3s);
+			&:hover, &:active {
+				text-decoration: none;
+				.sombraInternaMenuV(@bg-sub-menuv-item-color-hover);
+				color: @text-sub-menuv-item-color !important;
+				padding-left: 10%;
+			}
+			&:focus{
+				text-decoration: none;
+			}
+			&.active, &.active:hover {
+				text-decoration: none;
+				.sombraInternaMenuV(@bg-sub-menuv-item-color-active);
+				color: @text-menuv-item-color;
+			}
+		}
+	}
+	.badge{
+		background-color: @text-menuv-item-color !important;
+		color: @bg-menuv-item-color !important;
+	}
+}

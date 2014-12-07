@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	Parte CSS del Cintillo Informativo de las Portadas
+
+/* Declaraciones de Estilo del CintilloDeslizable */
+.contenedorCintillo {
+-moz-border-radius:5px;
+border: 4px solid #f5f5f5;
+background: #fff; 
+width: 532px; 
+height: 20px; 
+margin: -16px auto 0px auto; 
+overflow: hidden; 
+}
+.contenedorCintillo .mascara {
+position: relative;
+left: 5px;
+top: 4px;
+width: 522px;
+overflow: hidden;
+}
+ul.cintilloInformativo {
+position: relative;
+left: 532px;
+font: bold 10px Verdana;
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow:hidden;
+}
+ul.cintilloInformativo li {
+float: left;
+margin: 0;
+padding: 0px;
+background: #fff;
+list-style-type: none;
+}
+ul.cintilloInformativo a {
+white-space: nowrap;
+padding: 0;
+font: bold 10px Verdana;
+margin: 0 25px 0 0;
+} 
+ul.cintilloInformativo span {
+margin: 0 7px 0 0;
+background-color:#F00;
+color:#FFF;
+padding: 0px 8px;
+-moz-border-radius: 5px 0px;
+} 
+ul.cintilloInformativo span.etiquetasTit{background-color:#FFF;-moz-border-radius:none;color:#777;}
+
+
+/********************************************************************************************************** 
+	Elemento raíz para el efecto de deslizamiento. 
+	cuando el deslizamiento ocurre este elemento se mantiene quieto.
+*/
+div.scrollable {
+	
+	/* configuraciones vitales */
+	position:relative;
+	overflow:hidden;
+	margin: 0px 20px 0px 20px;
+	width: 540px;	
+	height:200px;
+	-moz-border-radius:5px;
+	background-color:#f5f5f5;
+	
+	/* decoraciones personalizables */
+	padding:10px 0;				
+}
+/*  Elemento raíz para los ítems que se deslizan. Debe estar posicionado absolutamente
+	y debe de tener un ancho supergrande para acomodar todos los ítems que se deslizan.
+	Es suficiente que establezcas ancho y alto para el elemento raíz y no para este elemento.
+**********************************************************************************************************/
+div.scrollable div.items {	
+	/* esto no puede ser muy grande */
+	width:6000px;	
+	position:absolute;
+	clear:both;		
+	
+	/* decoración */
+	margin-left:10px;
+}
+
+/* ítem deslizable sencillo */
+div.scrollable div.items div {
+	float:left;
+	
+	/* decoración personalizada */
+	width:510px;
+	height:180px;
+	padding:10px 5px;
+	margin-right: 20px;
+	overflow: hidden;
+	-moz-border-radius:5px;
+	background-color:#fff;
+	color:#444;
+}
+
+/* ítem activo */
+div.scrollable div.items div.active {
+	border:1px #ccc;		
+	background-color:#fff;
+}
+
+/* botones de anterior y siguiente */
+a.prev, a.next{
+	display:block;
+	position:absolute;
+	width:35px;
+	height:63px;
+	background: url(../img/anterior.png) no-repeat;
+	top:320px;
+	left:235px;
+	cursor:pointer;
+}
+a.next{clear:right;left:745px;background: url(../img/siguiente.png) no-repeat;}
+
+div.scrollable div.items div img {float: left;margin-right:20px;}
+div.scrollable div.items div h1 {text-align:center;margin-bottom:5px;}
+div.scrollable div.items div p {text-align:justify;text-indent:25px;margin-bottom:0px;}
+div.scrollable div.items div a {display:block;float:right;margin:-8px 30px 0px 0px;}
+/**********************************************************************************************************/
+/**********************************************************************************************************/
+/***************/
+/***  Galería Deslizable de Imágenes CLEY  ***/
+/* deslizamiento vertical principal */
+#contImgPpal {
+	position:relative;
+	overflow:hidden;
+	height: 280px;
+}
+
+/* root element for pages */
+#paginas {
+	position:absolute;
+	height:20000em;
+}
+
+/* single page */
+.pagina {
+	padding:10px;
+	height: 260px;
+	background-color:#f5f5f5;
+	width:375px;
+}
+
+/* root element for horizontal scrollables */
+.deslizable {
+	position:relative;
+	overflow:hidden;
+	width: 375px;
+	height: 260px;
+	-moz-border-radius:5px;
+	background-color:#fff;
+}
+
+/* root element for scrollable items */
+.deslizable .items {
+	width:20000em;
+	position:absolute;
+	clear:both;
+}
+
+/* single scrollable item */
+.item {
+	float:left;
+	cursor:pointer;
+	width:375px;
+	height:260px;
+	padding:10px 7px;
+}
+
+/* main navigator */
+#menuNavPpal {
+	float:left;
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#menuNavPpal li {
+	background-color:#bbb;
+	border-bottom: #666 thin solid;
+	clear:both;
+	color:#444;
+	font-size:12px;
+	height:30px;
+	list-style-type:none;
+	padding:10px;
+	width:150px;
+	cursor:pointer;
+	-moz-border-radius:5px 0px 0px 5px;
+}
+
+#menuNavPpal li:hover {
+	background-color:#ddd;
+	color:#F00;
+}
+
+#menuNavPpal li.active {
+	background-color:#f5f5f5;
+}
+#menuNavPpal li.active:hover {
+	color:#444;
+}
+
+#menuNavPpal img {
+	float:left;
+	margin-right:10px;
+}
+
+#menuNavPpal strong {
+	display:block;
+}
+
+#contImgPpal div.navi {
+	margin-left:50px;
+	cursor:pointer;
+}
+
+
+/*************/
+marquee#muestraTitulares{
+	position:absolute;
+	overflow:hidden;
+	top:457px;
+	right:27px;
+	width: 483px;	
+	height:19px;
+	-moz-border-radius:3px;
+	background-color:#f5f5f5;
+	padding-top:5px;
+	color:#444;
+}
+/*********************/
+/********************/
+#cont-webs-amigas{
+	position:absolute;
+	overflow:hidden;
+	top:485px;
+	right:25px;
+	width: 540px;	
+	height:60px;
+}
+/*** PRIMER GRUPO DE ENLACES AMIGOS ***/
+a[href="http://www.presidencia.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-presi.png) no-repeat 0px 0px;
+	height: 56px;
+	width: 54px;
+	margin-left: 0px;
+}
+a[href="http://www.presidencia.gob.ve/"]:hover{
+	background-position: 0px -55px;
+}
+a[href="http://www.asambleanacional.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-an.png) no-repeat 0px 0px;
+	height: 53px;
+	width: 45px;
+	margin-left: 10px;
+}
+a[href="http://www.asambleanacional.gob.ve/"]:hover{
+	background-position: 0px -56px;
+}
+a[href="http://www.yaracuy.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/gob-yar.png) no-repeat 0px 1px;
+	height: 52px;
+	width: 45px;
+	margin-left: 15px;
+}
+a[href="http://www.yaracuy.gob.ve/"]:hover{
+	background-position: 0px -51px;
+}
+a[href="http://www.cgr.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-contraloria.png) no-repeat 0px 1px;
+	height: 52px;
+	width: 40px;
+	margin-left: 18px;
+}
+a[href="http://www.cgr.gob.ve/"]:hover{
+	background-position: 0px -55px;
+}
+a[href="http://www.tsj.gov.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-tsj.png) no-repeat 0px 0px;
+	height: 50px;
+	width: 74px;
+	margin-left: 18px;
+}
+a[href="http://www.tsj.gov.ve/"]:hover{
+	background-position: 0px -51px;
+}
+a[href="http://www.fiscalia.gov.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-mp.png) no-repeat 0px 0px;
+	height: 52px;
+	width: 60px;
+	margin-left: 15px;
+}
+a[href="http://www.fiscalia.gov.ve/"]:hover{
+	background-position: 0px -59px;
+}
+a[href="http://www.defensoria.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-defensoria.png) no-repeat 0px 0px;
+	height: 55px;
+	width: 110px;
+	margin-top: 3px;
+	margin-left: 15px;
+}
+a[href="http://www.defensoria.gob.ve/"]:hover{
+	background-position: 0px -56px;
+}
+/*******************************************************/
+/*******************************************************/
+a[href="http://www.alopresidente.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-alopresi.png) no-repeat 0px 0px;
+	height: 55px;
+	width: 96px;
+	margin-left: 0px;
+}
+a[href="http://www.alopresidente.gob.ve/"]:hover{
+	background-position: 0px -55px;
+}
+a[href="http://www.venezueladeverdad.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logoVenVerdad.png) no-repeat 0px 0px;
+	height: 52px;
+	width: 104px;
+	margin-left: 10px;
+}
+a[href="http://www.venezueladeverdad.gob.ve/"]:hover{
+	background-position: 0px -55px;
+}
+/*** GRUPO DE ENLACES AMIGOS: TELEVISORAS, MEDIOS DE COMUNICACIÓN ***/
+a[href="http://www.antv.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-antv.png) no-repeat 0px 0px;
+	height: 53px;
+	width: 56px;
+	margin-left: 0px;
+}
+a[href="http://www.antv.gob.ve/"]:hover{
+	background-position: 0px -57px;
+}
+a[href="http://www.vtv.gov.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-vtv.png) no-repeat 0px 0px;
+	height: 50px;
+	width: 82px;
+	margin-left: 2px;
+	margin-top:3px;
+}
+a[href="http://www.vtv.gov.ve/"]:hover{
+	background-position: 0px -50px;
+}
+a[href="http://www.tves.org.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-tves.png) no-repeat 0px 0px;
+	height: 55px;
+	width: 65px;
+	margin-left: 2px;
+}
+a[href="http://www.tves.org.ve/"]:hover{
+	background-position: 0px -55px;
+}
+
+a[href="http://www.vive.gob.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-vivetv.png) no-repeat 0px 0px;
+	height: 55px;
+	width: 93px;
+	margin-left: 2px;
+	margin-top:3px;
+}
+a[href="http://www.vive.gob.ve/"]:hover{
+	background-position: 0px -54px;
+}
+a[href="http://www.telesurtv.net/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-telesur.png) no-repeat 0px 0px;
+	height: 53px;
+	width: 56px;
+	margin-left: 2px;
+}
+a[href="http://www.telesurtv.net/"]:hover{
+	background-position: 0px -54px;
+}
+a[href="http://www.abn.info.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-abn.png) no-repeat 0px 0px;
+	height: 52px;
+	width: 56px;
+	margin-left: 2px;
+	margin-top:3px;
+}
+a[href="http://www.abn.info.ve/"]:hover{
+	background-position: 0px -57px;
+}
+a[href="http://www.radiomundial.com.ve/yvke/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-yvke.png) no-repeat 0px 0px;
+	height: 33px;
+	width: 100px;
+	margin-left: 2px;
+}
+a[href="http://www.radiomundial.com.ve/yvke/"]:hover{
+	background-position: 0px -34px;
+}
+a[href="http://www.laradiodelsur.com/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-radiosur.png) no-repeat 0px 0px;
+	height: 55px;
+	width: 55px;
+	margin-left: 2px;
+}
+a[href="http://www.laradiodelsur.com/"]:hover{
+	background-position: 0px -55px;
+}
+a[href="http://www.rnv.gov.ve/"]{
+	display: inline-block;
+	background: transparent url(../img/webs/logo-rnv.png) no-repeat 0px 0px;
+	height: 55px;
+	width: 150px;
+	margin-left: 2px;
+}
+a[href="http://www.rnv.gov.ve/"]:hover{
+	background-position: 0px -56px;
+}

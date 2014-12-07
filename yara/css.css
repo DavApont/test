@@ -1,0 +1,149 @@
+/*--BANNER HOME--*/
+#slideshow.slideshow{position:absolute;width:100%;height:341px;overflow:hidden;left:0;top:146px;}
+#slideshow.slideshow div.slide{position:absolute;width:970px;height:341px;z-index:1;}
+#slideshow.slideshow div.slide img{position:absolute;left:50px;z-index:2;}
+#slideshow.slideshow div.slide div.txt{position:absolute;float:right;right:20px;width:600px;padding:80px 0 0 20px;font-family: "regular";margin:34px 0 0 0;z-index:3;top:-70px;}
+#slideshow.slideshow div.slide div#arbolito{position:absolute;left:550px;z-index:2;width:412px;height:347px;}
+#slideshow.slideshow div.slide div#arbolito img{position:absolute;width:412px;height:347px;left:0;}
+/*Destacado1*/
+#slideshow.slideshow div.slide div#robot_brillo{position:absolute;left:49px;z-index:2;width:870px;height:340px;}
+#slideshow.slideshow div.slide div#robot_brillo div#robot0{position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado1_b.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado1_b.png", sizingMethod="crop");}
+#slideshow.slideshow div.slide div#robot_brillo div#robot1{position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado1.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado1.png", sizingMethod="crop");}
+/*Destacado2*/
+#slideshow.slideshow div.slide div#robot_arbol{position:absolute;left:49px;z-index:2;width:870px;height:340px;}
+#slideshow.slideshow div.slide div#robot_arbol div#luces0{position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado2_b.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado2_b.png", sizingMethod="crop");}
+#slideshow.slideshow div.slide div#robot_arbol div#luces1{position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado2.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado2.png", sizingMethod="crop");}
+/*Destacado3*/
+#slideshow.slideshow div.slide div#robot_kings{position:absolute;left:49px;z-index:2;width:870px;height:340px;overflow:hidden;}
+#slideshow.slideshow div.slide div#robot_kings div#king0{z-index:1;position:absolute;left:150px;top:0;margin:0;padding:0;border:0;outline:0;width:150px;height:200px;background:url(slide/destacado3_b.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado3_b.png", sizingMethod="crop");}
+#slideshow.slideshow div.slide div#robot_kings div#king1{z-index:2;position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado3.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado3.png", sizingMethod="crop");}
+/*Destacado4*/
+#slideshow.slideshow div.slide div#robot_rocket{position:absolute;left:49px;z-index:2;width:870px;height:340px;}
+#slideshow.slideshow div.slide div#robot_rocket div#rocket0{position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado4_b.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado4_b.png", sizingMethod="crop");}
+#slideshow.slideshow div.slide div#robot_rocket div#rocket1{position:absolute;left:0;top:0;margin:0;padding:0;border:0;outline:0;width:870px;height:340px;background:url(slide/destacado4.png) no-repeat;/* IE hack */background:none\9;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="slide/destacado4.png", sizingMethod="crop");}
+#slideshow.slideshow div.slide div.txt-bt-right{position:absolute;top:174px;right:78px;z-index:3;}
+#slideshow.slideshow div.slide div.txt-bt-left{position:absolute;top:204px;left:78px;z-index:3;}
+#slideshow.slideshow div.slide div.txt h1{color:#fff;font-size:40px;font-family:bold;line-height:36px;padding:0 0 20px 0;}
+#slideshow.slideshow div.slide div.txt p{padding:0 0 17px 0;color:#fff;font-size:17px;margin:0;}
+#slideshow.slideshow div.slide div.txt .link{float:left;background:url("slide/button_right.png") no-repeat right 1px;font-size:110%;text-transform:uppercase;font-weight:bold;padding:1px 8px 0 0;color:#fff;text-decoration:none;border:none;margin:0;}
+#slideshow.slideshow div.slide div.txt .link span{float: left;background:url("slide/button02.png") no-repeat;height:30px;padding:8px 0 0 8px;}
+#slideshow.slideshow div.slide div.txt-2{position:absolute;float:right;right:20px;width:600px;padding:40px 0 0 20px;font-family: "regular";margin:34px 0 0 0;z-index:3;top:-70px;}
+#slideshow.slideshow div.slide div.txt-2 h1{color:#fff;font-size:40px;font-family:bold;line-height:36px;padding:0 0 20px 0;}
+#slideshow.slideshow div.slide div.txt-2 p{padding:0 0 17px 0;color:#fff;font-size:17px;margin:0;}
+#slideshow.slideshow div.slide div.txt-2 .link{float:left;background:url("slide/button_right.png") no-repeat right 1px;font-size:110%;text-transform:uppercase;font-weight:bold;padding:1px 8px 0 0;color:#fff;text-decoration:none;border:none;margin:0;}
+#slideshow.slideshow div.slide div.txt-2 .link span{float: left;background:url("slide/button02.png") no-repeat;height:30px;padding:8px 0 0 8px;}
+#slideshow.slideshow div.slide div.txt-3{position:absolute;float:left;width:600px;padding:80px 0 0 56px;font-family: "regular";margin:34px 0 0 0;z-index:3;top:-70px;}
+#slideshow.slideshow div.slide div.txt-3 h1{color:#fff;font-size:40px;font-family:bold;line-height:36px;padding:0 0 20px 0;}
+#slideshow.slideshow div.slide div.txt-3 p{padding:0 0 17px 0;color:#fff;font-size:17px;margin:0;}
+#slideshow.slideshow div.slide div.txt-3 .link{float:left;background:url("slide/button_right.png") no-repeat right 1px;font-size:110%;text-transform:uppercase;font-weight:bold;padding:1px 8px 0 0;color:#fff;text-decoration:none;border:none;margin:0;}
+#slideshow.slideshow div.slide div.txt-3 .link span{float: left;background:url("slide/button02.png") no-repeat;height:30px;padding:8px 0 0 8px;}
+
+#slideshow.slideshow div.slide div.txt-4{position:absolute;float:right;right:20px;width:600px;padding:50px 0 0 20px;font-family: "regular";margin:34px 0 0 0;z-index:3;top:-40px;}
+#slideshow.slideshow div.slide div.txt-4 h1{color:#fff;font-size:40px;font-family:bold;line-height:36px;padding:0 0 20px 0;}
+#slideshow.slideshow div.slide div.txt-4 p{padding:0 0 17px 0;color:#fff;font-size:17px;margin:0;}
+#slideshow.slideshow div.slide div.txt-4 .link{float:left;background:url("slide/button_right.png") no-repeat right 1px;font-size:110%;text-transform:uppercase;font-weight:bold;padding:1px 8px 0 0;color:#fff;text-decoration:none;border:none;margin:0;}
+#slideshow.slideshow div.slide div.txt-4 .link span{float: left;background:url("slide/button02.png") no-repeat;height:30px;padding:8px 0 0 8px;}
+div#prev_slide{position:absolute;width:50px;height:50px;left:50px;top:146px;background:url("slide/prev_slide.png") no-repeat;cursor:pointer;z-index:5;}
+div#next_slide{position:absolute;width:50px;height:50px;right:50px;top:146px;background:url("slide/next_slide.png") no-repeat;cursor:pointer;z-index:5;}
+div#slides_selectors{position:relative;display:inline-block;float:right;width:auto;height:23px;right:6px;top:-23px;z-index:5;}
+div#slides_selectors div.selector_off{position:relative;display:inline-block;width:23px;height:23px;background:url("slide/slide_select_off.png") no-repeat;cursor:pointer;}
+div#slides_selectors div.selector_on{background:url("slide/slide_select_on.png") no-repeat;}
+/*boton general*/
+.boton_general{
+	background: url("slide/button_right.png") no-repeat right 1px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: "bold";
+	padding:10px 8px 11px 0;
+	color: #fff;
+	text-decoration: none;
+}
+.boton_general span{
+	background:url("slide/button02.png") no-repeat;
+	height:30px;
+	font-size: 14px;
+	color: #fff;
+	padding:8px 0 11px 8px;
+}
+/*fin boton*/
+
+/*boton general Destacado Index 2*/
+.boton_general_index2{
+	background: url("slide/index_destacado_button_right.png") no-repeat top right;
+	font-size: 13px;
+	height:20px;
+	text-transform: uppercase;
+	font-family: "bold";
+	padding:9px 15px 7px 0;
+	color: #fff;
+	text-decoration: none;
+	display:inline-block;
+	width:auto;
+	position:relative;
+	top:-04px;
+	left:380px;
+}
+.boton_general_index2:hover{text-decoration: none;}
+.boton_general_index2 span{
+	background:url("slide/index_destacado_button.png") no-repeat top left;
+	height:20px;
+	font-size: 18px;
+	line-height:20px;
+	color: #fff;
+	padding:8px 0 8px 8px;
+}
+/*fin boton*/
+
+/*boton general Destacado Index 3*/
+.boton_general_index3{
+	background: url("slide/index_destacado_button_right.png") no-repeat top right;
+	font-size: 13px;
+	height:20px;
+	text-transform: uppercase;
+	font-family: "bold";
+	padding:9px 15px 7px 0;
+	color: #fff;
+	text-decoration: none;
+	display:inline-block;
+	width:auto;
+	position:relative;
+	top:-4px;
+	
+}
+.boton_general_index3:hover{text-decoration: none;}
+.boton_general_index3 span{
+	background:url("slide/index_destacado_button.png") no-repeat top left;
+	height:20px;
+	font-size: 18px;
+	line-height:20px;
+	color: #fff;
+	padding:8px 0 8px 8px;
+}
+/*fin boton*/
+
+/*boton general Destacado Index 4*/
+.boton_general_index4{
+	background: url("slide/index_destacado_button_right.png") no-repeat top right;
+	font-size: 13px;
+	height:20px;
+	text-transform: uppercase;
+	font-family: "bold";
+	padding:9px 15px 7px 0;
+	color: #fff;
+	text-decoration: none;
+	display:inline-block;
+	width:auto;
+	position:relative;
+	top:-4px;
+	left:400px;
+}
+.boton_general_index4:hover{text-decoration: none;}
+.boton_general_index4 span{
+	background:url("slide/index_destacado_button.png") no-repeat top left;
+	height:20px;
+	font-size: 18px;
+	line-height:20px;
+	color: #fff;
+	padding:8px 0 8px 8px;
+}
+/*fin boton*/

@@ -1,0 +1,27 @@
+
+/* Iconos para Menú Vertical */
+
+/*Nuevo Ingreso
+===============*/
+
+	.icon-plus-sign {
+    position: relative;
+}
+ 
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.icon-plus-sign:before {
+    content: "\f055";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 0px;
+    left: -15px;
+}

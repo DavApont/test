@@ -1,0 +1,1 @@
+/home/juan/sistemas/insumos_clone/app/views/modulos/show.blade.php

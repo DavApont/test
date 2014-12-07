@@ -1,0 +1,2 @@
+[16-Nov-2009 14:10:50] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home/cleyarac/public_html/connections/estandares.php on line 74
+[16-Nov-2009 14:10:50] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/cleyarac/public_html/connections/estandares.php on line 76
